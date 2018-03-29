@@ -34,6 +34,12 @@ public:
 };
 
 /** Wrapped boost mutex: supports recursive locking, but no waiting  */
+/**
+ * 类CCriticalSection的对象表示一个“临界区”，它是一个用于同步的对象，
+ * 同一时刻只允许一个线程存取资源或代码区。临界区在控制一次只有一个线程修改数据或其它的控制资源时非常有用。
+ * 例如，在链表中增加一个结点就只允许一次一个线程进行。通过使用CCriticalSection对象来控制链表，就可以达到这个目的。
+ * 它就像是一把钥匙，哪个线程获得了它就获得了运行线程的权力，而把其他线程统统阻塞。
+ */
 // TODO: We should move away from using the recursive lock by default.
 typedef AnnotatedMixin<boost::recursive_mutex> CCriticalSection;
 

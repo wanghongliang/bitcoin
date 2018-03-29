@@ -2072,7 +2072,9 @@ public:
 
 
 
-
+/**
+ * 整个交易池包含的所有信息
+ */
 class CTxMemPool
 {
 public:
