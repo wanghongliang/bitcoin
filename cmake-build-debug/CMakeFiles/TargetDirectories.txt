@@ -1,3 +1,0 @@
-/home/test/下载/bitcoin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/test/下载/bitcoin/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/test/下载/bitcoin/cmake-build-debug/CMakeFiles/bitcoin.dir
