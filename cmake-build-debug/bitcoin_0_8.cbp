@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="bitcoin_0_8"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/test/下载/bitcoin-0.8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/test/下载/bitcoin-0.8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/test/下载/bitcoin-0.8/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bitcoin_0_8">
+				<Option output="/home/test/下载/bitcoin-0.8/cmake-build-debug/bitcoin_0_8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/下载/bitcoin-0.8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 bitcoin_0_8"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bitcoin_0_8/fast">
+				<Option output="/home/test/下载/bitcoin-0.8/cmake-build-debug/bitcoin_0_8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/下载/bitcoin-0.8/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 bitcoin_0_8/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/test/下载/bitcoin-0.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/test/下载/bitcoin-0.8/db/autocompact_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/addrman.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/addrman.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/alert.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/alert.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/allocators.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/base58.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/bignum.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/bitcoinrpc.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/bitcoinrpc.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/bloom.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/bloom.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/checkpoints.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/checkpoints.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/checkqueue.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/clientversion.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/compat.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/crypter.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/crypter.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/db.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/db.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/hash.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/hash.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/init.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/init.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit_error_position.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit_reader.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit_reader.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit_reader_template.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit_stream_reader.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit_utils.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit_value.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit_value.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit_writer.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit_writer.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/json/json_spirit_writer_template.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/key.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/key.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/keystore.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/keystore.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/builder.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/builder.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/c.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/c_test.c">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/corruption_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/db_bench.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/db_impl.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/db_impl.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/db_iter.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/db_iter.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/db_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/dbformat.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/dbformat.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/dbformat_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/filename.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/filename.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/filename_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/leveldb_main.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/log_format.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/log_reader.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/log_reader.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/log_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/log_writer.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/log_writer.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/memtable.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/memtable.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/repair.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/skiplist.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/skiplist_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/snapshot.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/table_cache.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/table_cache.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/version_edit.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/version_edit.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/version_edit_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/version_set.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/version_set.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/version_set_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/write_batch.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/write_batch_internal.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/db/write_batch_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/doc/bench/db_bench_sqlite3.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/doc/bench/db_bench_tree_db.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/helpers/memenv/memenv.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/helpers/memenv/memenv.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/helpers/memenv/memenv_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/c.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/cache.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/comparator.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/db.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/env.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/filter_policy.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/iterator.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/options.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/slice.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/status.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/table.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/table_builder.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/include/leveldb/write_batch.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/issues/issue178_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/port/atomic_pointer.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/port/port.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/port/port_example.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/port/port_posix.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/port/port_posix.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/port/port_win.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/port/port_win.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/port/thread_annotations.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/port/win/stdint.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/block.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/block.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/block_builder.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/block_builder.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/filter_block.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/filter_block.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/filter_block_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/format.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/format.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/iterator.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/iterator_wrapper.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/merger.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/merger.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/table.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/table_builder.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/table_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/two_level_iterator.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/table/two_level_iterator.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/arena.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/arena.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/arena_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/bloom.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/bloom_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/cache.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/cache_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/coding.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/coding.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/coding_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/comparator.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/crc32c.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/crc32c.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/crc32c_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/env.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/env_posix.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/env_test.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/env_win.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/filter_policy.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/hash.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/hash.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/histogram.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/histogram.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/logging.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/logging.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/mutexlock.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/options.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/posix_logger.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/random.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/status.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/testharness.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/testharness.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/testutil.cc">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/leveldb/util/testutil.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/limitedmap.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/main.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/main.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/mruset.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/net.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/net.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/netbase.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/netbase.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/noui.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/protocol.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/protocol.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/aboutdialog.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/aboutdialog.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/addressbookpage.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/addressbookpage.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/addresstablemodel.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/addresstablemodel.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/askpassphrasedialog.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/askpassphrasedialog.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/bitcoin.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/bitcoinaddressvalidator.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/bitcoinaddressvalidator.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/bitcoinamountfield.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/bitcoinamountfield.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/bitcoingui.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/bitcoingui.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/bitcoinstrings.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/bitcoinunits.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/bitcoinunits.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/clientmodel.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/clientmodel.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/csvmodelwriter.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/csvmodelwriter.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/editaddressdialog.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/editaddressdialog.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/guiconstants.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/guiutil.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/guiutil.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/macdockiconhandler.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/monitoreddatamapper.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/monitoreddatamapper.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/notificator.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/notificator.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/optionsdialog.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/optionsdialog.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/optionsmodel.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/optionsmodel.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/overviewpage.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/overviewpage.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/paymentserver.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/paymentserver.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/qrcodedialog.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/qrcodedialog.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/qvalidatedlineedit.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/qvalidatedlineedit.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/qvaluecombobox.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/qvaluecombobox.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/rpcconsole.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/rpcconsole.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/sendcoinsdialog.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/sendcoinsdialog.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/sendcoinsentry.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/sendcoinsentry.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/signverifymessagedialog.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/signverifymessagedialog.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/splashscreen.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/splashscreen.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/test/test_main.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/test/uritests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/test/uritests.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactiondesc.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactiondesc.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactiondescdialog.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactiondescdialog.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactionfilterproxy.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactionfilterproxy.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactionrecord.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactionrecord.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactiontablemodel.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactiontablemodel.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactionview.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/transactionview.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/walletframe.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/walletframe.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/walletmodel.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/walletmodel.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/walletstack.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/walletstack.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/walletview.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/qt/walletview.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/rpcblockchain.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/rpcdump.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/rpcmining.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/rpcnet.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/rpcrawtransaction.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/rpcwallet.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/script.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/script.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/serialize.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/sync.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/sync.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/Checkpoints_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/DoS_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/accounting_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/alert_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/allocator_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/base32_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/base58_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/base64_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/bignum_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/bloom_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/canonical_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/checkblock_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/compress_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/getarg_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/key_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/miner_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/mruset_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/multisig_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/netbase_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/pmt_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/rpc_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/script_P2SH_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/script_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/serialize_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/sigopcount_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/test_bitcoin.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/transaction_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/uint160_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/uint256_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/util_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/test/wallet_tests.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/threadsafety.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/txdb.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/txdb.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/ui_interface.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/uint256.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/util.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/util.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/version.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/version.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/wallet.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/wallet.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/walletdb.cpp">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/src/walletdb.h">
+			<Option target="bitcoin_0_8"/>
+		</Unit>
+		<Unit filename="/home/test/下载/bitcoin-0.8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
