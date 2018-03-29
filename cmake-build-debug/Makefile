@@ -48,10 +48,10 @@ RM = /home/test/下载/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/test/下载/bitcoin-0.8
+CMAKE_SOURCE_DIR = /home/test/下载/bitcoin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/test/下载/bitcoin-0.8/cmake-build-debug
+CMAKE_BINARY_DIR = /home/test/下载/bitcoin/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/下载/bitcoin-0.8/cmake-build-debug/CMakeFiles /home/test/下载/bitcoin-0.8/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/下载/bitcoin/cmake-build-debug/CMakeFiles /home/test/下载/bitcoin/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/下载/bitcoin-0.8/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/下载/bitcoin/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bitcoin_0_8
+# Target rules for targets named bitcoin
 
 # Build rule for target.
-bitcoin_0_8: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bitcoin_0_8
-.PHONY : bitcoin_0_8
+bitcoin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bitcoin
+.PHONY : bitcoin
 
 # fast build rule for target.
-bitcoin_0_8/fast:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/build
-.PHONY : bitcoin_0_8/fast
+bitcoin/fast:
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/build
+.PHONY : bitcoin/fast
 
 db/autocompact_test.o: db/autocompact_test.cc.o
 
@@ -129,7 +129,7 @@ db/autocompact_test.o: db/autocompact_test.cc.o
 
 # target to build an object file
 db/autocompact_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/db/autocompact_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/db/autocompact_test.cc.o
 .PHONY : db/autocompact_test.cc.o
 
 db/autocompact_test.i: db/autocompact_test.cc.i
@@ -138,7 +138,7 @@ db/autocompact_test.i: db/autocompact_test.cc.i
 
 # target to preprocess a source file
 db/autocompact_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/db/autocompact_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/db/autocompact_test.cc.i
 .PHONY : db/autocompact_test.cc.i
 
 db/autocompact_test.s: db/autocompact_test.cc.s
@@ -147,7 +147,7 @@ db/autocompact_test.s: db/autocompact_test.cc.s
 
 # target to generate assembly for a file
 db/autocompact_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/db/autocompact_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/db/autocompact_test.cc.s
 .PHONY : db/autocompact_test.cc.s
 
 src/addrman.o: src/addrman.cpp.o
@@ -156,7 +156,7 @@ src/addrman.o: src/addrman.cpp.o
 
 # target to build an object file
 src/addrman.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/addrman.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/addrman.cpp.o
 .PHONY : src/addrman.cpp.o
 
 src/addrman.i: src/addrman.cpp.i
@@ -165,7 +165,7 @@ src/addrman.i: src/addrman.cpp.i
 
 # target to preprocess a source file
 src/addrman.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/addrman.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/addrman.cpp.i
 .PHONY : src/addrman.cpp.i
 
 src/addrman.s: src/addrman.cpp.s
@@ -174,7 +174,7 @@ src/addrman.s: src/addrman.cpp.s
 
 # target to generate assembly for a file
 src/addrman.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/addrman.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/addrman.cpp.s
 .PHONY : src/addrman.cpp.s
 
 src/alert.o: src/alert.cpp.o
@@ -183,7 +183,7 @@ src/alert.o: src/alert.cpp.o
 
 # target to build an object file
 src/alert.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/alert.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/alert.cpp.o
 .PHONY : src/alert.cpp.o
 
 src/alert.i: src/alert.cpp.i
@@ -192,7 +192,7 @@ src/alert.i: src/alert.cpp.i
 
 # target to preprocess a source file
 src/alert.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/alert.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/alert.cpp.i
 .PHONY : src/alert.cpp.i
 
 src/alert.s: src/alert.cpp.s
@@ -201,7 +201,7 @@ src/alert.s: src/alert.cpp.s
 
 # target to generate assembly for a file
 src/alert.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/alert.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/alert.cpp.s
 .PHONY : src/alert.cpp.s
 
 src/bitcoinrpc.o: src/bitcoinrpc.cpp.o
@@ -210,7 +210,7 @@ src/bitcoinrpc.o: src/bitcoinrpc.cpp.o
 
 # target to build an object file
 src/bitcoinrpc.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/bitcoinrpc.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/bitcoinrpc.cpp.o
 .PHONY : src/bitcoinrpc.cpp.o
 
 src/bitcoinrpc.i: src/bitcoinrpc.cpp.i
@@ -219,7 +219,7 @@ src/bitcoinrpc.i: src/bitcoinrpc.cpp.i
 
 # target to preprocess a source file
 src/bitcoinrpc.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/bitcoinrpc.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/bitcoinrpc.cpp.i
 .PHONY : src/bitcoinrpc.cpp.i
 
 src/bitcoinrpc.s: src/bitcoinrpc.cpp.s
@@ -228,7 +228,7 @@ src/bitcoinrpc.s: src/bitcoinrpc.cpp.s
 
 # target to generate assembly for a file
 src/bitcoinrpc.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/bitcoinrpc.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/bitcoinrpc.cpp.s
 .PHONY : src/bitcoinrpc.cpp.s
 
 src/bloom.o: src/bloom.cpp.o
@@ -237,7 +237,7 @@ src/bloom.o: src/bloom.cpp.o
 
 # target to build an object file
 src/bloom.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/bloom.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/bloom.cpp.o
 .PHONY : src/bloom.cpp.o
 
 src/bloom.i: src/bloom.cpp.i
@@ -246,7 +246,7 @@ src/bloom.i: src/bloom.cpp.i
 
 # target to preprocess a source file
 src/bloom.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/bloom.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/bloom.cpp.i
 .PHONY : src/bloom.cpp.i
 
 src/bloom.s: src/bloom.cpp.s
@@ -255,7 +255,7 @@ src/bloom.s: src/bloom.cpp.s
 
 # target to generate assembly for a file
 src/bloom.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/bloom.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/bloom.cpp.s
 .PHONY : src/bloom.cpp.s
 
 src/checkpoints.o: src/checkpoints.cpp.o
@@ -264,7 +264,7 @@ src/checkpoints.o: src/checkpoints.cpp.o
 
 # target to build an object file
 src/checkpoints.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/checkpoints.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/checkpoints.cpp.o
 .PHONY : src/checkpoints.cpp.o
 
 src/checkpoints.i: src/checkpoints.cpp.i
@@ -273,7 +273,7 @@ src/checkpoints.i: src/checkpoints.cpp.i
 
 # target to preprocess a source file
 src/checkpoints.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/checkpoints.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/checkpoints.cpp.i
 .PHONY : src/checkpoints.cpp.i
 
 src/checkpoints.s: src/checkpoints.cpp.s
@@ -282,7 +282,7 @@ src/checkpoints.s: src/checkpoints.cpp.s
 
 # target to generate assembly for a file
 src/checkpoints.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/checkpoints.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/checkpoints.cpp.s
 .PHONY : src/checkpoints.cpp.s
 
 src/crypter.o: src/crypter.cpp.o
@@ -291,7 +291,7 @@ src/crypter.o: src/crypter.cpp.o
 
 # target to build an object file
 src/crypter.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/crypter.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/crypter.cpp.o
 .PHONY : src/crypter.cpp.o
 
 src/crypter.i: src/crypter.cpp.i
@@ -300,7 +300,7 @@ src/crypter.i: src/crypter.cpp.i
 
 # target to preprocess a source file
 src/crypter.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/crypter.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/crypter.cpp.i
 .PHONY : src/crypter.cpp.i
 
 src/crypter.s: src/crypter.cpp.s
@@ -309,7 +309,7 @@ src/crypter.s: src/crypter.cpp.s
 
 # target to generate assembly for a file
 src/crypter.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/crypter.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/crypter.cpp.s
 .PHONY : src/crypter.cpp.s
 
 src/db.o: src/db.cpp.o
@@ -318,7 +318,7 @@ src/db.o: src/db.cpp.o
 
 # target to build an object file
 src/db.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/db.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/db.cpp.o
 .PHONY : src/db.cpp.o
 
 src/db.i: src/db.cpp.i
@@ -327,7 +327,7 @@ src/db.i: src/db.cpp.i
 
 # target to preprocess a source file
 src/db.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/db.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/db.cpp.i
 .PHONY : src/db.cpp.i
 
 src/db.s: src/db.cpp.s
@@ -336,7 +336,7 @@ src/db.s: src/db.cpp.s
 
 # target to generate assembly for a file
 src/db.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/db.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/db.cpp.s
 .PHONY : src/db.cpp.s
 
 src/hash.o: src/hash.cpp.o
@@ -345,7 +345,7 @@ src/hash.o: src/hash.cpp.o
 
 # target to build an object file
 src/hash.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/hash.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/hash.cpp.o
 .PHONY : src/hash.cpp.o
 
 src/hash.i: src/hash.cpp.i
@@ -354,7 +354,7 @@ src/hash.i: src/hash.cpp.i
 
 # target to preprocess a source file
 src/hash.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/hash.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/hash.cpp.i
 .PHONY : src/hash.cpp.i
 
 src/hash.s: src/hash.cpp.s
@@ -363,7 +363,7 @@ src/hash.s: src/hash.cpp.s
 
 # target to generate assembly for a file
 src/hash.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/hash.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/hash.cpp.s
 .PHONY : src/hash.cpp.s
 
 src/init.o: src/init.cpp.o
@@ -372,7 +372,7 @@ src/init.o: src/init.cpp.o
 
 # target to build an object file
 src/init.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/init.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/init.cpp.o
 .PHONY : src/init.cpp.o
 
 src/init.i: src/init.cpp.i
@@ -381,7 +381,7 @@ src/init.i: src/init.cpp.i
 
 # target to preprocess a source file
 src/init.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/init.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/init.cpp.i
 .PHONY : src/init.cpp.i
 
 src/init.s: src/init.cpp.s
@@ -390,7 +390,7 @@ src/init.s: src/init.cpp.s
 
 # target to generate assembly for a file
 src/init.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/init.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/init.cpp.s
 .PHONY : src/init.cpp.s
 
 src/json/json_spirit_reader.o: src/json/json_spirit_reader.cpp.o
@@ -399,7 +399,7 @@ src/json/json_spirit_reader.o: src/json/json_spirit_reader.cpp.o
 
 # target to build an object file
 src/json/json_spirit_reader.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/json/json_spirit_reader.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/json/json_spirit_reader.cpp.o
 .PHONY : src/json/json_spirit_reader.cpp.o
 
 src/json/json_spirit_reader.i: src/json/json_spirit_reader.cpp.i
@@ -408,7 +408,7 @@ src/json/json_spirit_reader.i: src/json/json_spirit_reader.cpp.i
 
 # target to preprocess a source file
 src/json/json_spirit_reader.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/json/json_spirit_reader.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/json/json_spirit_reader.cpp.i
 .PHONY : src/json/json_spirit_reader.cpp.i
 
 src/json/json_spirit_reader.s: src/json/json_spirit_reader.cpp.s
@@ -417,7 +417,7 @@ src/json/json_spirit_reader.s: src/json/json_spirit_reader.cpp.s
 
 # target to generate assembly for a file
 src/json/json_spirit_reader.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/json/json_spirit_reader.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/json/json_spirit_reader.cpp.s
 .PHONY : src/json/json_spirit_reader.cpp.s
 
 src/json/json_spirit_value.o: src/json/json_spirit_value.cpp.o
@@ -426,7 +426,7 @@ src/json/json_spirit_value.o: src/json/json_spirit_value.cpp.o
 
 # target to build an object file
 src/json/json_spirit_value.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/json/json_spirit_value.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/json/json_spirit_value.cpp.o
 .PHONY : src/json/json_spirit_value.cpp.o
 
 src/json/json_spirit_value.i: src/json/json_spirit_value.cpp.i
@@ -435,7 +435,7 @@ src/json/json_spirit_value.i: src/json/json_spirit_value.cpp.i
 
 # target to preprocess a source file
 src/json/json_spirit_value.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/json/json_spirit_value.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/json/json_spirit_value.cpp.i
 .PHONY : src/json/json_spirit_value.cpp.i
 
 src/json/json_spirit_value.s: src/json/json_spirit_value.cpp.s
@@ -444,7 +444,7 @@ src/json/json_spirit_value.s: src/json/json_spirit_value.cpp.s
 
 # target to generate assembly for a file
 src/json/json_spirit_value.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/json/json_spirit_value.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/json/json_spirit_value.cpp.s
 .PHONY : src/json/json_spirit_value.cpp.s
 
 src/json/json_spirit_writer.o: src/json/json_spirit_writer.cpp.o
@@ -453,7 +453,7 @@ src/json/json_spirit_writer.o: src/json/json_spirit_writer.cpp.o
 
 # target to build an object file
 src/json/json_spirit_writer.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/json/json_spirit_writer.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/json/json_spirit_writer.cpp.o
 .PHONY : src/json/json_spirit_writer.cpp.o
 
 src/json/json_spirit_writer.i: src/json/json_spirit_writer.cpp.i
@@ -462,7 +462,7 @@ src/json/json_spirit_writer.i: src/json/json_spirit_writer.cpp.i
 
 # target to preprocess a source file
 src/json/json_spirit_writer.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/json/json_spirit_writer.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/json/json_spirit_writer.cpp.i
 .PHONY : src/json/json_spirit_writer.cpp.i
 
 src/json/json_spirit_writer.s: src/json/json_spirit_writer.cpp.s
@@ -471,7 +471,7 @@ src/json/json_spirit_writer.s: src/json/json_spirit_writer.cpp.s
 
 # target to generate assembly for a file
 src/json/json_spirit_writer.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/json/json_spirit_writer.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/json/json_spirit_writer.cpp.s
 .PHONY : src/json/json_spirit_writer.cpp.s
 
 src/key.o: src/key.cpp.o
@@ -480,7 +480,7 @@ src/key.o: src/key.cpp.o
 
 # target to build an object file
 src/key.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/key.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/key.cpp.o
 .PHONY : src/key.cpp.o
 
 src/key.i: src/key.cpp.i
@@ -489,7 +489,7 @@ src/key.i: src/key.cpp.i
 
 # target to preprocess a source file
 src/key.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/key.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/key.cpp.i
 .PHONY : src/key.cpp.i
 
 src/key.s: src/key.cpp.s
@@ -498,7 +498,7 @@ src/key.s: src/key.cpp.s
 
 # target to generate assembly for a file
 src/key.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/key.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/key.cpp.s
 .PHONY : src/key.cpp.s
 
 src/keystore.o: src/keystore.cpp.o
@@ -507,7 +507,7 @@ src/keystore.o: src/keystore.cpp.o
 
 # target to build an object file
 src/keystore.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/keystore.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/keystore.cpp.o
 .PHONY : src/keystore.cpp.o
 
 src/keystore.i: src/keystore.cpp.i
@@ -516,7 +516,7 @@ src/keystore.i: src/keystore.cpp.i
 
 # target to preprocess a source file
 src/keystore.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/keystore.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/keystore.cpp.i
 .PHONY : src/keystore.cpp.i
 
 src/keystore.s: src/keystore.cpp.s
@@ -525,7 +525,7 @@ src/keystore.s: src/keystore.cpp.s
 
 # target to generate assembly for a file
 src/keystore.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/keystore.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/keystore.cpp.s
 .PHONY : src/keystore.cpp.s
 
 src/leveldb.o: src/leveldb.cpp.o
@@ -534,7 +534,7 @@ src/leveldb.o: src/leveldb.cpp.o
 
 # target to build an object file
 src/leveldb.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb.cpp.o
 .PHONY : src/leveldb.cpp.o
 
 src/leveldb.i: src/leveldb.cpp.i
@@ -543,7 +543,7 @@ src/leveldb.i: src/leveldb.cpp.i
 
 # target to preprocess a source file
 src/leveldb.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb.cpp.i
 .PHONY : src/leveldb.cpp.i
 
 src/leveldb.s: src/leveldb.cpp.s
@@ -552,7 +552,7 @@ src/leveldb.s: src/leveldb.cpp.s
 
 # target to generate assembly for a file
 src/leveldb.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb.cpp.s
 .PHONY : src/leveldb.cpp.s
 
 src/leveldb/db/builder.o: src/leveldb/db/builder.cc.o
@@ -561,7 +561,7 @@ src/leveldb/db/builder.o: src/leveldb/db/builder.cc.o
 
 # target to build an object file
 src/leveldb/db/builder.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/builder.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/builder.cc.o
 .PHONY : src/leveldb/db/builder.cc.o
 
 src/leveldb/db/builder.i: src/leveldb/db/builder.cc.i
@@ -570,7 +570,7 @@ src/leveldb/db/builder.i: src/leveldb/db/builder.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/builder.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/builder.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/builder.cc.i
 .PHONY : src/leveldb/db/builder.cc.i
 
 src/leveldb/db/builder.s: src/leveldb/db/builder.cc.s
@@ -579,7 +579,7 @@ src/leveldb/db/builder.s: src/leveldb/db/builder.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/builder.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/builder.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/builder.cc.s
 .PHONY : src/leveldb/db/builder.cc.s
 
 src/leveldb/db/c.o: src/leveldb/db/c.cc.o
@@ -588,7 +588,7 @@ src/leveldb/db/c.o: src/leveldb/db/c.cc.o
 
 # target to build an object file
 src/leveldb/db/c.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/c.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/c.cc.o
 .PHONY : src/leveldb/db/c.cc.o
 
 src/leveldb/db/c.i: src/leveldb/db/c.cc.i
@@ -597,7 +597,7 @@ src/leveldb/db/c.i: src/leveldb/db/c.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/c.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/c.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/c.cc.i
 .PHONY : src/leveldb/db/c.cc.i
 
 src/leveldb/db/c.s: src/leveldb/db/c.cc.s
@@ -606,7 +606,7 @@ src/leveldb/db/c.s: src/leveldb/db/c.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/c.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/c.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/c.cc.s
 .PHONY : src/leveldb/db/c.cc.s
 
 src/leveldb/db/c_test.o: src/leveldb/db/c_test.c.o
@@ -615,7 +615,7 @@ src/leveldb/db/c_test.o: src/leveldb/db/c_test.c.o
 
 # target to build an object file
 src/leveldb/db/c_test.c.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/c_test.c.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/c_test.c.o
 .PHONY : src/leveldb/db/c_test.c.o
 
 src/leveldb/db/c_test.i: src/leveldb/db/c_test.c.i
@@ -624,7 +624,7 @@ src/leveldb/db/c_test.i: src/leveldb/db/c_test.c.i
 
 # target to preprocess a source file
 src/leveldb/db/c_test.c.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/c_test.c.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/c_test.c.i
 .PHONY : src/leveldb/db/c_test.c.i
 
 src/leveldb/db/c_test.s: src/leveldb/db/c_test.c.s
@@ -633,7 +633,7 @@ src/leveldb/db/c_test.s: src/leveldb/db/c_test.c.s
 
 # target to generate assembly for a file
 src/leveldb/db/c_test.c.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/c_test.c.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/c_test.c.s
 .PHONY : src/leveldb/db/c_test.c.s
 
 src/leveldb/db/corruption_test.o: src/leveldb/db/corruption_test.cc.o
@@ -642,7 +642,7 @@ src/leveldb/db/corruption_test.o: src/leveldb/db/corruption_test.cc.o
 
 # target to build an object file
 src/leveldb/db/corruption_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/corruption_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/corruption_test.cc.o
 .PHONY : src/leveldb/db/corruption_test.cc.o
 
 src/leveldb/db/corruption_test.i: src/leveldb/db/corruption_test.cc.i
@@ -651,7 +651,7 @@ src/leveldb/db/corruption_test.i: src/leveldb/db/corruption_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/corruption_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/corruption_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/corruption_test.cc.i
 .PHONY : src/leveldb/db/corruption_test.cc.i
 
 src/leveldb/db/corruption_test.s: src/leveldb/db/corruption_test.cc.s
@@ -660,7 +660,7 @@ src/leveldb/db/corruption_test.s: src/leveldb/db/corruption_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/corruption_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/corruption_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/corruption_test.cc.s
 .PHONY : src/leveldb/db/corruption_test.cc.s
 
 src/leveldb/db/db_bench.o: src/leveldb/db/db_bench.cc.o
@@ -669,7 +669,7 @@ src/leveldb/db/db_bench.o: src/leveldb/db/db_bench.cc.o
 
 # target to build an object file
 src/leveldb/db/db_bench.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_bench.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_bench.cc.o
 .PHONY : src/leveldb/db/db_bench.cc.o
 
 src/leveldb/db/db_bench.i: src/leveldb/db/db_bench.cc.i
@@ -678,7 +678,7 @@ src/leveldb/db/db_bench.i: src/leveldb/db/db_bench.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/db_bench.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_bench.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_bench.cc.i
 .PHONY : src/leveldb/db/db_bench.cc.i
 
 src/leveldb/db/db_bench.s: src/leveldb/db/db_bench.cc.s
@@ -687,7 +687,7 @@ src/leveldb/db/db_bench.s: src/leveldb/db/db_bench.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/db_bench.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_bench.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_bench.cc.s
 .PHONY : src/leveldb/db/db_bench.cc.s
 
 src/leveldb/db/db_impl.o: src/leveldb/db/db_impl.cc.o
@@ -696,7 +696,7 @@ src/leveldb/db/db_impl.o: src/leveldb/db/db_impl.cc.o
 
 # target to build an object file
 src/leveldb/db/db_impl.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_impl.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_impl.cc.o
 .PHONY : src/leveldb/db/db_impl.cc.o
 
 src/leveldb/db/db_impl.i: src/leveldb/db/db_impl.cc.i
@@ -705,7 +705,7 @@ src/leveldb/db/db_impl.i: src/leveldb/db/db_impl.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/db_impl.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_impl.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_impl.cc.i
 .PHONY : src/leveldb/db/db_impl.cc.i
 
 src/leveldb/db/db_impl.s: src/leveldb/db/db_impl.cc.s
@@ -714,7 +714,7 @@ src/leveldb/db/db_impl.s: src/leveldb/db/db_impl.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/db_impl.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_impl.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_impl.cc.s
 .PHONY : src/leveldb/db/db_impl.cc.s
 
 src/leveldb/db/db_iter.o: src/leveldb/db/db_iter.cc.o
@@ -723,7 +723,7 @@ src/leveldb/db/db_iter.o: src/leveldb/db/db_iter.cc.o
 
 # target to build an object file
 src/leveldb/db/db_iter.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_iter.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_iter.cc.o
 .PHONY : src/leveldb/db/db_iter.cc.o
 
 src/leveldb/db/db_iter.i: src/leveldb/db/db_iter.cc.i
@@ -732,7 +732,7 @@ src/leveldb/db/db_iter.i: src/leveldb/db/db_iter.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/db_iter.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_iter.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_iter.cc.i
 .PHONY : src/leveldb/db/db_iter.cc.i
 
 src/leveldb/db/db_iter.s: src/leveldb/db/db_iter.cc.s
@@ -741,7 +741,7 @@ src/leveldb/db/db_iter.s: src/leveldb/db/db_iter.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/db_iter.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_iter.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_iter.cc.s
 .PHONY : src/leveldb/db/db_iter.cc.s
 
 src/leveldb/db/db_test.o: src/leveldb/db/db_test.cc.o
@@ -750,7 +750,7 @@ src/leveldb/db/db_test.o: src/leveldb/db/db_test.cc.o
 
 # target to build an object file
 src/leveldb/db/db_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_test.cc.o
 .PHONY : src/leveldb/db/db_test.cc.o
 
 src/leveldb/db/db_test.i: src/leveldb/db/db_test.cc.i
@@ -759,7 +759,7 @@ src/leveldb/db/db_test.i: src/leveldb/db/db_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/db_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_test.cc.i
 .PHONY : src/leveldb/db/db_test.cc.i
 
 src/leveldb/db/db_test.s: src/leveldb/db/db_test.cc.s
@@ -768,7 +768,7 @@ src/leveldb/db/db_test.s: src/leveldb/db/db_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/db_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/db_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/db_test.cc.s
 .PHONY : src/leveldb/db/db_test.cc.s
 
 src/leveldb/db/dbformat.o: src/leveldb/db/dbformat.cc.o
@@ -777,7 +777,7 @@ src/leveldb/db/dbformat.o: src/leveldb/db/dbformat.cc.o
 
 # target to build an object file
 src/leveldb/db/dbformat.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/dbformat.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/dbformat.cc.o
 .PHONY : src/leveldb/db/dbformat.cc.o
 
 src/leveldb/db/dbformat.i: src/leveldb/db/dbformat.cc.i
@@ -786,7 +786,7 @@ src/leveldb/db/dbformat.i: src/leveldb/db/dbformat.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/dbformat.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/dbformat.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/dbformat.cc.i
 .PHONY : src/leveldb/db/dbformat.cc.i
 
 src/leveldb/db/dbformat.s: src/leveldb/db/dbformat.cc.s
@@ -795,7 +795,7 @@ src/leveldb/db/dbformat.s: src/leveldb/db/dbformat.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/dbformat.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/dbformat.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/dbformat.cc.s
 .PHONY : src/leveldb/db/dbformat.cc.s
 
 src/leveldb/db/dbformat_test.o: src/leveldb/db/dbformat_test.cc.o
@@ -804,7 +804,7 @@ src/leveldb/db/dbformat_test.o: src/leveldb/db/dbformat_test.cc.o
 
 # target to build an object file
 src/leveldb/db/dbformat_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/dbformat_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/dbformat_test.cc.o
 .PHONY : src/leveldb/db/dbformat_test.cc.o
 
 src/leveldb/db/dbformat_test.i: src/leveldb/db/dbformat_test.cc.i
@@ -813,7 +813,7 @@ src/leveldb/db/dbformat_test.i: src/leveldb/db/dbformat_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/dbformat_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/dbformat_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/dbformat_test.cc.i
 .PHONY : src/leveldb/db/dbformat_test.cc.i
 
 src/leveldb/db/dbformat_test.s: src/leveldb/db/dbformat_test.cc.s
@@ -822,7 +822,7 @@ src/leveldb/db/dbformat_test.s: src/leveldb/db/dbformat_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/dbformat_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/dbformat_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/dbformat_test.cc.s
 .PHONY : src/leveldb/db/dbformat_test.cc.s
 
 src/leveldb/db/filename.o: src/leveldb/db/filename.cc.o
@@ -831,7 +831,7 @@ src/leveldb/db/filename.o: src/leveldb/db/filename.cc.o
 
 # target to build an object file
 src/leveldb/db/filename.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/filename.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/filename.cc.o
 .PHONY : src/leveldb/db/filename.cc.o
 
 src/leveldb/db/filename.i: src/leveldb/db/filename.cc.i
@@ -840,7 +840,7 @@ src/leveldb/db/filename.i: src/leveldb/db/filename.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/filename.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/filename.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/filename.cc.i
 .PHONY : src/leveldb/db/filename.cc.i
 
 src/leveldb/db/filename.s: src/leveldb/db/filename.cc.s
@@ -849,7 +849,7 @@ src/leveldb/db/filename.s: src/leveldb/db/filename.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/filename.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/filename.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/filename.cc.s
 .PHONY : src/leveldb/db/filename.cc.s
 
 src/leveldb/db/filename_test.o: src/leveldb/db/filename_test.cc.o
@@ -858,7 +858,7 @@ src/leveldb/db/filename_test.o: src/leveldb/db/filename_test.cc.o
 
 # target to build an object file
 src/leveldb/db/filename_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/filename_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/filename_test.cc.o
 .PHONY : src/leveldb/db/filename_test.cc.o
 
 src/leveldb/db/filename_test.i: src/leveldb/db/filename_test.cc.i
@@ -867,7 +867,7 @@ src/leveldb/db/filename_test.i: src/leveldb/db/filename_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/filename_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/filename_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/filename_test.cc.i
 .PHONY : src/leveldb/db/filename_test.cc.i
 
 src/leveldb/db/filename_test.s: src/leveldb/db/filename_test.cc.s
@@ -876,7 +876,7 @@ src/leveldb/db/filename_test.s: src/leveldb/db/filename_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/filename_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/filename_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/filename_test.cc.s
 .PHONY : src/leveldb/db/filename_test.cc.s
 
 src/leveldb/db/leveldb_main.o: src/leveldb/db/leveldb_main.cc.o
@@ -885,7 +885,7 @@ src/leveldb/db/leveldb_main.o: src/leveldb/db/leveldb_main.cc.o
 
 # target to build an object file
 src/leveldb/db/leveldb_main.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/leveldb_main.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/leveldb_main.cc.o
 .PHONY : src/leveldb/db/leveldb_main.cc.o
 
 src/leveldb/db/leveldb_main.i: src/leveldb/db/leveldb_main.cc.i
@@ -894,7 +894,7 @@ src/leveldb/db/leveldb_main.i: src/leveldb/db/leveldb_main.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/leveldb_main.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/leveldb_main.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/leveldb_main.cc.i
 .PHONY : src/leveldb/db/leveldb_main.cc.i
 
 src/leveldb/db/leveldb_main.s: src/leveldb/db/leveldb_main.cc.s
@@ -903,7 +903,7 @@ src/leveldb/db/leveldb_main.s: src/leveldb/db/leveldb_main.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/leveldb_main.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/leveldb_main.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/leveldb_main.cc.s
 .PHONY : src/leveldb/db/leveldb_main.cc.s
 
 src/leveldb/db/log_reader.o: src/leveldb/db/log_reader.cc.o
@@ -912,7 +912,7 @@ src/leveldb/db/log_reader.o: src/leveldb/db/log_reader.cc.o
 
 # target to build an object file
 src/leveldb/db/log_reader.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/log_reader.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/log_reader.cc.o
 .PHONY : src/leveldb/db/log_reader.cc.o
 
 src/leveldb/db/log_reader.i: src/leveldb/db/log_reader.cc.i
@@ -921,7 +921,7 @@ src/leveldb/db/log_reader.i: src/leveldb/db/log_reader.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/log_reader.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/log_reader.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/log_reader.cc.i
 .PHONY : src/leveldb/db/log_reader.cc.i
 
 src/leveldb/db/log_reader.s: src/leveldb/db/log_reader.cc.s
@@ -930,7 +930,7 @@ src/leveldb/db/log_reader.s: src/leveldb/db/log_reader.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/log_reader.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/log_reader.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/log_reader.cc.s
 .PHONY : src/leveldb/db/log_reader.cc.s
 
 src/leveldb/db/log_test.o: src/leveldb/db/log_test.cc.o
@@ -939,7 +939,7 @@ src/leveldb/db/log_test.o: src/leveldb/db/log_test.cc.o
 
 # target to build an object file
 src/leveldb/db/log_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/log_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/log_test.cc.o
 .PHONY : src/leveldb/db/log_test.cc.o
 
 src/leveldb/db/log_test.i: src/leveldb/db/log_test.cc.i
@@ -948,7 +948,7 @@ src/leveldb/db/log_test.i: src/leveldb/db/log_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/log_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/log_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/log_test.cc.i
 .PHONY : src/leveldb/db/log_test.cc.i
 
 src/leveldb/db/log_test.s: src/leveldb/db/log_test.cc.s
@@ -957,7 +957,7 @@ src/leveldb/db/log_test.s: src/leveldb/db/log_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/log_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/log_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/log_test.cc.s
 .PHONY : src/leveldb/db/log_test.cc.s
 
 src/leveldb/db/log_writer.o: src/leveldb/db/log_writer.cc.o
@@ -966,7 +966,7 @@ src/leveldb/db/log_writer.o: src/leveldb/db/log_writer.cc.o
 
 # target to build an object file
 src/leveldb/db/log_writer.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/log_writer.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/log_writer.cc.o
 .PHONY : src/leveldb/db/log_writer.cc.o
 
 src/leveldb/db/log_writer.i: src/leveldb/db/log_writer.cc.i
@@ -975,7 +975,7 @@ src/leveldb/db/log_writer.i: src/leveldb/db/log_writer.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/log_writer.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/log_writer.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/log_writer.cc.i
 .PHONY : src/leveldb/db/log_writer.cc.i
 
 src/leveldb/db/log_writer.s: src/leveldb/db/log_writer.cc.s
@@ -984,7 +984,7 @@ src/leveldb/db/log_writer.s: src/leveldb/db/log_writer.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/log_writer.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/log_writer.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/log_writer.cc.s
 .PHONY : src/leveldb/db/log_writer.cc.s
 
 src/leveldb/db/memtable.o: src/leveldb/db/memtable.cc.o
@@ -993,7 +993,7 @@ src/leveldb/db/memtable.o: src/leveldb/db/memtable.cc.o
 
 # target to build an object file
 src/leveldb/db/memtable.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/memtable.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/memtable.cc.o
 .PHONY : src/leveldb/db/memtable.cc.o
 
 src/leveldb/db/memtable.i: src/leveldb/db/memtable.cc.i
@@ -1002,7 +1002,7 @@ src/leveldb/db/memtable.i: src/leveldb/db/memtable.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/memtable.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/memtable.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/memtable.cc.i
 .PHONY : src/leveldb/db/memtable.cc.i
 
 src/leveldb/db/memtable.s: src/leveldb/db/memtable.cc.s
@@ -1011,7 +1011,7 @@ src/leveldb/db/memtable.s: src/leveldb/db/memtable.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/memtable.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/memtable.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/memtable.cc.s
 .PHONY : src/leveldb/db/memtable.cc.s
 
 src/leveldb/db/repair.o: src/leveldb/db/repair.cc.o
@@ -1020,7 +1020,7 @@ src/leveldb/db/repair.o: src/leveldb/db/repair.cc.o
 
 # target to build an object file
 src/leveldb/db/repair.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/repair.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/repair.cc.o
 .PHONY : src/leveldb/db/repair.cc.o
 
 src/leveldb/db/repair.i: src/leveldb/db/repair.cc.i
@@ -1029,7 +1029,7 @@ src/leveldb/db/repair.i: src/leveldb/db/repair.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/repair.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/repair.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/repair.cc.i
 .PHONY : src/leveldb/db/repair.cc.i
 
 src/leveldb/db/repair.s: src/leveldb/db/repair.cc.s
@@ -1038,7 +1038,7 @@ src/leveldb/db/repair.s: src/leveldb/db/repair.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/repair.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/repair.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/repair.cc.s
 .PHONY : src/leveldb/db/repair.cc.s
 
 src/leveldb/db/skiplist_test.o: src/leveldb/db/skiplist_test.cc.o
@@ -1047,7 +1047,7 @@ src/leveldb/db/skiplist_test.o: src/leveldb/db/skiplist_test.cc.o
 
 # target to build an object file
 src/leveldb/db/skiplist_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/skiplist_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/skiplist_test.cc.o
 .PHONY : src/leveldb/db/skiplist_test.cc.o
 
 src/leveldb/db/skiplist_test.i: src/leveldb/db/skiplist_test.cc.i
@@ -1056,7 +1056,7 @@ src/leveldb/db/skiplist_test.i: src/leveldb/db/skiplist_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/skiplist_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/skiplist_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/skiplist_test.cc.i
 .PHONY : src/leveldb/db/skiplist_test.cc.i
 
 src/leveldb/db/skiplist_test.s: src/leveldb/db/skiplist_test.cc.s
@@ -1065,7 +1065,7 @@ src/leveldb/db/skiplist_test.s: src/leveldb/db/skiplist_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/skiplist_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/skiplist_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/skiplist_test.cc.s
 .PHONY : src/leveldb/db/skiplist_test.cc.s
 
 src/leveldb/db/table_cache.o: src/leveldb/db/table_cache.cc.o
@@ -1074,7 +1074,7 @@ src/leveldb/db/table_cache.o: src/leveldb/db/table_cache.cc.o
 
 # target to build an object file
 src/leveldb/db/table_cache.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/table_cache.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/table_cache.cc.o
 .PHONY : src/leveldb/db/table_cache.cc.o
 
 src/leveldb/db/table_cache.i: src/leveldb/db/table_cache.cc.i
@@ -1083,7 +1083,7 @@ src/leveldb/db/table_cache.i: src/leveldb/db/table_cache.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/table_cache.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/table_cache.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/table_cache.cc.i
 .PHONY : src/leveldb/db/table_cache.cc.i
 
 src/leveldb/db/table_cache.s: src/leveldb/db/table_cache.cc.s
@@ -1092,7 +1092,7 @@ src/leveldb/db/table_cache.s: src/leveldb/db/table_cache.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/table_cache.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/table_cache.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/table_cache.cc.s
 .PHONY : src/leveldb/db/table_cache.cc.s
 
 src/leveldb/db/version_edit.o: src/leveldb/db/version_edit.cc.o
@@ -1101,7 +1101,7 @@ src/leveldb/db/version_edit.o: src/leveldb/db/version_edit.cc.o
 
 # target to build an object file
 src/leveldb/db/version_edit.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_edit.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_edit.cc.o
 .PHONY : src/leveldb/db/version_edit.cc.o
 
 src/leveldb/db/version_edit.i: src/leveldb/db/version_edit.cc.i
@@ -1110,7 +1110,7 @@ src/leveldb/db/version_edit.i: src/leveldb/db/version_edit.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/version_edit.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_edit.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_edit.cc.i
 .PHONY : src/leveldb/db/version_edit.cc.i
 
 src/leveldb/db/version_edit.s: src/leveldb/db/version_edit.cc.s
@@ -1119,7 +1119,7 @@ src/leveldb/db/version_edit.s: src/leveldb/db/version_edit.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/version_edit.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_edit.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_edit.cc.s
 .PHONY : src/leveldb/db/version_edit.cc.s
 
 src/leveldb/db/version_edit_test.o: src/leveldb/db/version_edit_test.cc.o
@@ -1128,7 +1128,7 @@ src/leveldb/db/version_edit_test.o: src/leveldb/db/version_edit_test.cc.o
 
 # target to build an object file
 src/leveldb/db/version_edit_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_edit_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_edit_test.cc.o
 .PHONY : src/leveldb/db/version_edit_test.cc.o
 
 src/leveldb/db/version_edit_test.i: src/leveldb/db/version_edit_test.cc.i
@@ -1137,7 +1137,7 @@ src/leveldb/db/version_edit_test.i: src/leveldb/db/version_edit_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/version_edit_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_edit_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_edit_test.cc.i
 .PHONY : src/leveldb/db/version_edit_test.cc.i
 
 src/leveldb/db/version_edit_test.s: src/leveldb/db/version_edit_test.cc.s
@@ -1146,7 +1146,7 @@ src/leveldb/db/version_edit_test.s: src/leveldb/db/version_edit_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/version_edit_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_edit_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_edit_test.cc.s
 .PHONY : src/leveldb/db/version_edit_test.cc.s
 
 src/leveldb/db/version_set.o: src/leveldb/db/version_set.cc.o
@@ -1155,7 +1155,7 @@ src/leveldb/db/version_set.o: src/leveldb/db/version_set.cc.o
 
 # target to build an object file
 src/leveldb/db/version_set.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_set.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_set.cc.o
 .PHONY : src/leveldb/db/version_set.cc.o
 
 src/leveldb/db/version_set.i: src/leveldb/db/version_set.cc.i
@@ -1164,7 +1164,7 @@ src/leveldb/db/version_set.i: src/leveldb/db/version_set.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/version_set.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_set.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_set.cc.i
 .PHONY : src/leveldb/db/version_set.cc.i
 
 src/leveldb/db/version_set.s: src/leveldb/db/version_set.cc.s
@@ -1173,7 +1173,7 @@ src/leveldb/db/version_set.s: src/leveldb/db/version_set.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/version_set.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_set.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_set.cc.s
 .PHONY : src/leveldb/db/version_set.cc.s
 
 src/leveldb/db/version_set_test.o: src/leveldb/db/version_set_test.cc.o
@@ -1182,7 +1182,7 @@ src/leveldb/db/version_set_test.o: src/leveldb/db/version_set_test.cc.o
 
 # target to build an object file
 src/leveldb/db/version_set_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_set_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_set_test.cc.o
 .PHONY : src/leveldb/db/version_set_test.cc.o
 
 src/leveldb/db/version_set_test.i: src/leveldb/db/version_set_test.cc.i
@@ -1191,7 +1191,7 @@ src/leveldb/db/version_set_test.i: src/leveldb/db/version_set_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/version_set_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_set_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_set_test.cc.i
 .PHONY : src/leveldb/db/version_set_test.cc.i
 
 src/leveldb/db/version_set_test.s: src/leveldb/db/version_set_test.cc.s
@@ -1200,7 +1200,7 @@ src/leveldb/db/version_set_test.s: src/leveldb/db/version_set_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/version_set_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/version_set_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/version_set_test.cc.s
 .PHONY : src/leveldb/db/version_set_test.cc.s
 
 src/leveldb/db/write_batch.o: src/leveldb/db/write_batch.cc.o
@@ -1209,7 +1209,7 @@ src/leveldb/db/write_batch.o: src/leveldb/db/write_batch.cc.o
 
 # target to build an object file
 src/leveldb/db/write_batch.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/write_batch.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/write_batch.cc.o
 .PHONY : src/leveldb/db/write_batch.cc.o
 
 src/leveldb/db/write_batch.i: src/leveldb/db/write_batch.cc.i
@@ -1218,7 +1218,7 @@ src/leveldb/db/write_batch.i: src/leveldb/db/write_batch.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/write_batch.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/write_batch.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/write_batch.cc.i
 .PHONY : src/leveldb/db/write_batch.cc.i
 
 src/leveldb/db/write_batch.s: src/leveldb/db/write_batch.cc.s
@@ -1227,7 +1227,7 @@ src/leveldb/db/write_batch.s: src/leveldb/db/write_batch.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/write_batch.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/write_batch.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/write_batch.cc.s
 .PHONY : src/leveldb/db/write_batch.cc.s
 
 src/leveldb/db/write_batch_test.o: src/leveldb/db/write_batch_test.cc.o
@@ -1236,7 +1236,7 @@ src/leveldb/db/write_batch_test.o: src/leveldb/db/write_batch_test.cc.o
 
 # target to build an object file
 src/leveldb/db/write_batch_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/write_batch_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/write_batch_test.cc.o
 .PHONY : src/leveldb/db/write_batch_test.cc.o
 
 src/leveldb/db/write_batch_test.i: src/leveldb/db/write_batch_test.cc.i
@@ -1245,7 +1245,7 @@ src/leveldb/db/write_batch_test.i: src/leveldb/db/write_batch_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/db/write_batch_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/write_batch_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/write_batch_test.cc.i
 .PHONY : src/leveldb/db/write_batch_test.cc.i
 
 src/leveldb/db/write_batch_test.s: src/leveldb/db/write_batch_test.cc.s
@@ -1254,7 +1254,7 @@ src/leveldb/db/write_batch_test.s: src/leveldb/db/write_batch_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/db/write_batch_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/db/write_batch_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/db/write_batch_test.cc.s
 .PHONY : src/leveldb/db/write_batch_test.cc.s
 
 src/leveldb/doc/bench/db_bench_sqlite3.o: src/leveldb/doc/bench/db_bench_sqlite3.cc.o
@@ -1263,7 +1263,7 @@ src/leveldb/doc/bench/db_bench_sqlite3.o: src/leveldb/doc/bench/db_bench_sqlite3
 
 # target to build an object file
 src/leveldb/doc/bench/db_bench_sqlite3.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.o
 .PHONY : src/leveldb/doc/bench/db_bench_sqlite3.cc.o
 
 src/leveldb/doc/bench/db_bench_sqlite3.i: src/leveldb/doc/bench/db_bench_sqlite3.cc.i
@@ -1272,7 +1272,7 @@ src/leveldb/doc/bench/db_bench_sqlite3.i: src/leveldb/doc/bench/db_bench_sqlite3
 
 # target to preprocess a source file
 src/leveldb/doc/bench/db_bench_sqlite3.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.i
 .PHONY : src/leveldb/doc/bench/db_bench_sqlite3.cc.i
 
 src/leveldb/doc/bench/db_bench_sqlite3.s: src/leveldb/doc/bench/db_bench_sqlite3.cc.s
@@ -1281,7 +1281,7 @@ src/leveldb/doc/bench/db_bench_sqlite3.s: src/leveldb/doc/bench/db_bench_sqlite3
 
 # target to generate assembly for a file
 src/leveldb/doc/bench/db_bench_sqlite3.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/doc/bench/db_bench_sqlite3.cc.s
 .PHONY : src/leveldb/doc/bench/db_bench_sqlite3.cc.s
 
 src/leveldb/doc/bench/db_bench_tree_db.o: src/leveldb/doc/bench/db_bench_tree_db.cc.o
@@ -1290,7 +1290,7 @@ src/leveldb/doc/bench/db_bench_tree_db.o: src/leveldb/doc/bench/db_bench_tree_db
 
 # target to build an object file
 src/leveldb/doc/bench/db_bench_tree_db.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.o
 .PHONY : src/leveldb/doc/bench/db_bench_tree_db.cc.o
 
 src/leveldb/doc/bench/db_bench_tree_db.i: src/leveldb/doc/bench/db_bench_tree_db.cc.i
@@ -1299,7 +1299,7 @@ src/leveldb/doc/bench/db_bench_tree_db.i: src/leveldb/doc/bench/db_bench_tree_db
 
 # target to preprocess a source file
 src/leveldb/doc/bench/db_bench_tree_db.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.i
 .PHONY : src/leveldb/doc/bench/db_bench_tree_db.cc.i
 
 src/leveldb/doc/bench/db_bench_tree_db.s: src/leveldb/doc/bench/db_bench_tree_db.cc.s
@@ -1308,7 +1308,7 @@ src/leveldb/doc/bench/db_bench_tree_db.s: src/leveldb/doc/bench/db_bench_tree_db
 
 # target to generate assembly for a file
 src/leveldb/doc/bench/db_bench_tree_db.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/doc/bench/db_bench_tree_db.cc.s
 .PHONY : src/leveldb/doc/bench/db_bench_tree_db.cc.s
 
 src/leveldb/helpers/memenv/memenv.o: src/leveldb/helpers/memenv/memenv.cc.o
@@ -1317,7 +1317,7 @@ src/leveldb/helpers/memenv/memenv.o: src/leveldb/helpers/memenv/memenv.cc.o
 
 # target to build an object file
 src/leveldb/helpers/memenv/memenv.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/helpers/memenv/memenv.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/helpers/memenv/memenv.cc.o
 .PHONY : src/leveldb/helpers/memenv/memenv.cc.o
 
 src/leveldb/helpers/memenv/memenv.i: src/leveldb/helpers/memenv/memenv.cc.i
@@ -1326,7 +1326,7 @@ src/leveldb/helpers/memenv/memenv.i: src/leveldb/helpers/memenv/memenv.cc.i
 
 # target to preprocess a source file
 src/leveldb/helpers/memenv/memenv.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/helpers/memenv/memenv.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/helpers/memenv/memenv.cc.i
 .PHONY : src/leveldb/helpers/memenv/memenv.cc.i
 
 src/leveldb/helpers/memenv/memenv.s: src/leveldb/helpers/memenv/memenv.cc.s
@@ -1335,7 +1335,7 @@ src/leveldb/helpers/memenv/memenv.s: src/leveldb/helpers/memenv/memenv.cc.s
 
 # target to generate assembly for a file
 src/leveldb/helpers/memenv/memenv.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/helpers/memenv/memenv.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/helpers/memenv/memenv.cc.s
 .PHONY : src/leveldb/helpers/memenv/memenv.cc.s
 
 src/leveldb/helpers/memenv/memenv_test.o: src/leveldb/helpers/memenv/memenv_test.cc.o
@@ -1344,7 +1344,7 @@ src/leveldb/helpers/memenv/memenv_test.o: src/leveldb/helpers/memenv/memenv_test
 
 # target to build an object file
 src/leveldb/helpers/memenv/memenv_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/helpers/memenv/memenv_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/helpers/memenv/memenv_test.cc.o
 .PHONY : src/leveldb/helpers/memenv/memenv_test.cc.o
 
 src/leveldb/helpers/memenv/memenv_test.i: src/leveldb/helpers/memenv/memenv_test.cc.i
@@ -1353,7 +1353,7 @@ src/leveldb/helpers/memenv/memenv_test.i: src/leveldb/helpers/memenv/memenv_test
 
 # target to preprocess a source file
 src/leveldb/helpers/memenv/memenv_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/helpers/memenv/memenv_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/helpers/memenv/memenv_test.cc.i
 .PHONY : src/leveldb/helpers/memenv/memenv_test.cc.i
 
 src/leveldb/helpers/memenv/memenv_test.s: src/leveldb/helpers/memenv/memenv_test.cc.s
@@ -1362,7 +1362,7 @@ src/leveldb/helpers/memenv/memenv_test.s: src/leveldb/helpers/memenv/memenv_test
 
 # target to generate assembly for a file
 src/leveldb/helpers/memenv/memenv_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/helpers/memenv/memenv_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/helpers/memenv/memenv_test.cc.s
 .PHONY : src/leveldb/helpers/memenv/memenv_test.cc.s
 
 src/leveldb/issues/issue178_test.o: src/leveldb/issues/issue178_test.cc.o
@@ -1371,7 +1371,7 @@ src/leveldb/issues/issue178_test.o: src/leveldb/issues/issue178_test.cc.o
 
 # target to build an object file
 src/leveldb/issues/issue178_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/issues/issue178_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/issues/issue178_test.cc.o
 .PHONY : src/leveldb/issues/issue178_test.cc.o
 
 src/leveldb/issues/issue178_test.i: src/leveldb/issues/issue178_test.cc.i
@@ -1380,7 +1380,7 @@ src/leveldb/issues/issue178_test.i: src/leveldb/issues/issue178_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/issues/issue178_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/issues/issue178_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/issues/issue178_test.cc.i
 .PHONY : src/leveldb/issues/issue178_test.cc.i
 
 src/leveldb/issues/issue178_test.s: src/leveldb/issues/issue178_test.cc.s
@@ -1389,7 +1389,7 @@ src/leveldb/issues/issue178_test.s: src/leveldb/issues/issue178_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/issues/issue178_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/issues/issue178_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/issues/issue178_test.cc.s
 .PHONY : src/leveldb/issues/issue178_test.cc.s
 
 src/leveldb/port/port_posix.o: src/leveldb/port/port_posix.cc.o
@@ -1398,7 +1398,7 @@ src/leveldb/port/port_posix.o: src/leveldb/port/port_posix.cc.o
 
 # target to build an object file
 src/leveldb/port/port_posix.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/port/port_posix.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/port/port_posix.cc.o
 .PHONY : src/leveldb/port/port_posix.cc.o
 
 src/leveldb/port/port_posix.i: src/leveldb/port/port_posix.cc.i
@@ -1407,7 +1407,7 @@ src/leveldb/port/port_posix.i: src/leveldb/port/port_posix.cc.i
 
 # target to preprocess a source file
 src/leveldb/port/port_posix.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/port/port_posix.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/port/port_posix.cc.i
 .PHONY : src/leveldb/port/port_posix.cc.i
 
 src/leveldb/port/port_posix.s: src/leveldb/port/port_posix.cc.s
@@ -1416,7 +1416,7 @@ src/leveldb/port/port_posix.s: src/leveldb/port/port_posix.cc.s
 
 # target to generate assembly for a file
 src/leveldb/port/port_posix.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/port/port_posix.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/port/port_posix.cc.s
 .PHONY : src/leveldb/port/port_posix.cc.s
 
 src/leveldb/port/port_win.o: src/leveldb/port/port_win.cc.o
@@ -1425,7 +1425,7 @@ src/leveldb/port/port_win.o: src/leveldb/port/port_win.cc.o
 
 # target to build an object file
 src/leveldb/port/port_win.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/port/port_win.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/port/port_win.cc.o
 .PHONY : src/leveldb/port/port_win.cc.o
 
 src/leveldb/port/port_win.i: src/leveldb/port/port_win.cc.i
@@ -1434,7 +1434,7 @@ src/leveldb/port/port_win.i: src/leveldb/port/port_win.cc.i
 
 # target to preprocess a source file
 src/leveldb/port/port_win.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/port/port_win.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/port/port_win.cc.i
 .PHONY : src/leveldb/port/port_win.cc.i
 
 src/leveldb/port/port_win.s: src/leveldb/port/port_win.cc.s
@@ -1443,7 +1443,7 @@ src/leveldb/port/port_win.s: src/leveldb/port/port_win.cc.s
 
 # target to generate assembly for a file
 src/leveldb/port/port_win.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/port/port_win.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/port/port_win.cc.s
 .PHONY : src/leveldb/port/port_win.cc.s
 
 src/leveldb/table/block.o: src/leveldb/table/block.cc.o
@@ -1452,7 +1452,7 @@ src/leveldb/table/block.o: src/leveldb/table/block.cc.o
 
 # target to build an object file
 src/leveldb/table/block.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/block.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/block.cc.o
 .PHONY : src/leveldb/table/block.cc.o
 
 src/leveldb/table/block.i: src/leveldb/table/block.cc.i
@@ -1461,7 +1461,7 @@ src/leveldb/table/block.i: src/leveldb/table/block.cc.i
 
 # target to preprocess a source file
 src/leveldb/table/block.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/block.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/block.cc.i
 .PHONY : src/leveldb/table/block.cc.i
 
 src/leveldb/table/block.s: src/leveldb/table/block.cc.s
@@ -1470,7 +1470,7 @@ src/leveldb/table/block.s: src/leveldb/table/block.cc.s
 
 # target to generate assembly for a file
 src/leveldb/table/block.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/block.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/block.cc.s
 .PHONY : src/leveldb/table/block.cc.s
 
 src/leveldb/table/block_builder.o: src/leveldb/table/block_builder.cc.o
@@ -1479,7 +1479,7 @@ src/leveldb/table/block_builder.o: src/leveldb/table/block_builder.cc.o
 
 # target to build an object file
 src/leveldb/table/block_builder.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/block_builder.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/block_builder.cc.o
 .PHONY : src/leveldb/table/block_builder.cc.o
 
 src/leveldb/table/block_builder.i: src/leveldb/table/block_builder.cc.i
@@ -1488,7 +1488,7 @@ src/leveldb/table/block_builder.i: src/leveldb/table/block_builder.cc.i
 
 # target to preprocess a source file
 src/leveldb/table/block_builder.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/block_builder.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/block_builder.cc.i
 .PHONY : src/leveldb/table/block_builder.cc.i
 
 src/leveldb/table/block_builder.s: src/leveldb/table/block_builder.cc.s
@@ -1497,7 +1497,7 @@ src/leveldb/table/block_builder.s: src/leveldb/table/block_builder.cc.s
 
 # target to generate assembly for a file
 src/leveldb/table/block_builder.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/block_builder.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/block_builder.cc.s
 .PHONY : src/leveldb/table/block_builder.cc.s
 
 src/leveldb/table/filter_block.o: src/leveldb/table/filter_block.cc.o
@@ -1506,7 +1506,7 @@ src/leveldb/table/filter_block.o: src/leveldb/table/filter_block.cc.o
 
 # target to build an object file
 src/leveldb/table/filter_block.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/filter_block.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/filter_block.cc.o
 .PHONY : src/leveldb/table/filter_block.cc.o
 
 src/leveldb/table/filter_block.i: src/leveldb/table/filter_block.cc.i
@@ -1515,7 +1515,7 @@ src/leveldb/table/filter_block.i: src/leveldb/table/filter_block.cc.i
 
 # target to preprocess a source file
 src/leveldb/table/filter_block.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/filter_block.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/filter_block.cc.i
 .PHONY : src/leveldb/table/filter_block.cc.i
 
 src/leveldb/table/filter_block.s: src/leveldb/table/filter_block.cc.s
@@ -1524,7 +1524,7 @@ src/leveldb/table/filter_block.s: src/leveldb/table/filter_block.cc.s
 
 # target to generate assembly for a file
 src/leveldb/table/filter_block.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/filter_block.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/filter_block.cc.s
 .PHONY : src/leveldb/table/filter_block.cc.s
 
 src/leveldb/table/filter_block_test.o: src/leveldb/table/filter_block_test.cc.o
@@ -1533,7 +1533,7 @@ src/leveldb/table/filter_block_test.o: src/leveldb/table/filter_block_test.cc.o
 
 # target to build an object file
 src/leveldb/table/filter_block_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/filter_block_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/filter_block_test.cc.o
 .PHONY : src/leveldb/table/filter_block_test.cc.o
 
 src/leveldb/table/filter_block_test.i: src/leveldb/table/filter_block_test.cc.i
@@ -1542,7 +1542,7 @@ src/leveldb/table/filter_block_test.i: src/leveldb/table/filter_block_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/table/filter_block_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/filter_block_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/filter_block_test.cc.i
 .PHONY : src/leveldb/table/filter_block_test.cc.i
 
 src/leveldb/table/filter_block_test.s: src/leveldb/table/filter_block_test.cc.s
@@ -1551,7 +1551,7 @@ src/leveldb/table/filter_block_test.s: src/leveldb/table/filter_block_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/table/filter_block_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/filter_block_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/filter_block_test.cc.s
 .PHONY : src/leveldb/table/filter_block_test.cc.s
 
 src/leveldb/table/format.o: src/leveldb/table/format.cc.o
@@ -1560,7 +1560,7 @@ src/leveldb/table/format.o: src/leveldb/table/format.cc.o
 
 # target to build an object file
 src/leveldb/table/format.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/format.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/format.cc.o
 .PHONY : src/leveldb/table/format.cc.o
 
 src/leveldb/table/format.i: src/leveldb/table/format.cc.i
@@ -1569,7 +1569,7 @@ src/leveldb/table/format.i: src/leveldb/table/format.cc.i
 
 # target to preprocess a source file
 src/leveldb/table/format.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/format.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/format.cc.i
 .PHONY : src/leveldb/table/format.cc.i
 
 src/leveldb/table/format.s: src/leveldb/table/format.cc.s
@@ -1578,7 +1578,7 @@ src/leveldb/table/format.s: src/leveldb/table/format.cc.s
 
 # target to generate assembly for a file
 src/leveldb/table/format.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/format.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/format.cc.s
 .PHONY : src/leveldb/table/format.cc.s
 
 src/leveldb/table/iterator.o: src/leveldb/table/iterator.cc.o
@@ -1587,7 +1587,7 @@ src/leveldb/table/iterator.o: src/leveldb/table/iterator.cc.o
 
 # target to build an object file
 src/leveldb/table/iterator.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/iterator.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/iterator.cc.o
 .PHONY : src/leveldb/table/iterator.cc.o
 
 src/leveldb/table/iterator.i: src/leveldb/table/iterator.cc.i
@@ -1596,7 +1596,7 @@ src/leveldb/table/iterator.i: src/leveldb/table/iterator.cc.i
 
 # target to preprocess a source file
 src/leveldb/table/iterator.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/iterator.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/iterator.cc.i
 .PHONY : src/leveldb/table/iterator.cc.i
 
 src/leveldb/table/iterator.s: src/leveldb/table/iterator.cc.s
@@ -1605,7 +1605,7 @@ src/leveldb/table/iterator.s: src/leveldb/table/iterator.cc.s
 
 # target to generate assembly for a file
 src/leveldb/table/iterator.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/iterator.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/iterator.cc.s
 .PHONY : src/leveldb/table/iterator.cc.s
 
 src/leveldb/table/merger.o: src/leveldb/table/merger.cc.o
@@ -1614,7 +1614,7 @@ src/leveldb/table/merger.o: src/leveldb/table/merger.cc.o
 
 # target to build an object file
 src/leveldb/table/merger.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/merger.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/merger.cc.o
 .PHONY : src/leveldb/table/merger.cc.o
 
 src/leveldb/table/merger.i: src/leveldb/table/merger.cc.i
@@ -1623,7 +1623,7 @@ src/leveldb/table/merger.i: src/leveldb/table/merger.cc.i
 
 # target to preprocess a source file
 src/leveldb/table/merger.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/merger.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/merger.cc.i
 .PHONY : src/leveldb/table/merger.cc.i
 
 src/leveldb/table/merger.s: src/leveldb/table/merger.cc.s
@@ -1632,7 +1632,7 @@ src/leveldb/table/merger.s: src/leveldb/table/merger.cc.s
 
 # target to generate assembly for a file
 src/leveldb/table/merger.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/merger.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/merger.cc.s
 .PHONY : src/leveldb/table/merger.cc.s
 
 src/leveldb/table/table.o: src/leveldb/table/table.cc.o
@@ -1641,7 +1641,7 @@ src/leveldb/table/table.o: src/leveldb/table/table.cc.o
 
 # target to build an object file
 src/leveldb/table/table.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/table.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/table.cc.o
 .PHONY : src/leveldb/table/table.cc.o
 
 src/leveldb/table/table.i: src/leveldb/table/table.cc.i
@@ -1650,7 +1650,7 @@ src/leveldb/table/table.i: src/leveldb/table/table.cc.i
 
 # target to preprocess a source file
 src/leveldb/table/table.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/table.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/table.cc.i
 .PHONY : src/leveldb/table/table.cc.i
 
 src/leveldb/table/table.s: src/leveldb/table/table.cc.s
@@ -1659,7 +1659,7 @@ src/leveldb/table/table.s: src/leveldb/table/table.cc.s
 
 # target to generate assembly for a file
 src/leveldb/table/table.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/table.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/table.cc.s
 .PHONY : src/leveldb/table/table.cc.s
 
 src/leveldb/table/table_builder.o: src/leveldb/table/table_builder.cc.o
@@ -1668,7 +1668,7 @@ src/leveldb/table/table_builder.o: src/leveldb/table/table_builder.cc.o
 
 # target to build an object file
 src/leveldb/table/table_builder.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/table_builder.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/table_builder.cc.o
 .PHONY : src/leveldb/table/table_builder.cc.o
 
 src/leveldb/table/table_builder.i: src/leveldb/table/table_builder.cc.i
@@ -1677,7 +1677,7 @@ src/leveldb/table/table_builder.i: src/leveldb/table/table_builder.cc.i
 
 # target to preprocess a source file
 src/leveldb/table/table_builder.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/table_builder.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/table_builder.cc.i
 .PHONY : src/leveldb/table/table_builder.cc.i
 
 src/leveldb/table/table_builder.s: src/leveldb/table/table_builder.cc.s
@@ -1686,7 +1686,7 @@ src/leveldb/table/table_builder.s: src/leveldb/table/table_builder.cc.s
 
 # target to generate assembly for a file
 src/leveldb/table/table_builder.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/table_builder.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/table_builder.cc.s
 .PHONY : src/leveldb/table/table_builder.cc.s
 
 src/leveldb/table/table_test.o: src/leveldb/table/table_test.cc.o
@@ -1695,7 +1695,7 @@ src/leveldb/table/table_test.o: src/leveldb/table/table_test.cc.o
 
 # target to build an object file
 src/leveldb/table/table_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/table_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/table_test.cc.o
 .PHONY : src/leveldb/table/table_test.cc.o
 
 src/leveldb/table/table_test.i: src/leveldb/table/table_test.cc.i
@@ -1704,7 +1704,7 @@ src/leveldb/table/table_test.i: src/leveldb/table/table_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/table/table_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/table_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/table_test.cc.i
 .PHONY : src/leveldb/table/table_test.cc.i
 
 src/leveldb/table/table_test.s: src/leveldb/table/table_test.cc.s
@@ -1713,7 +1713,7 @@ src/leveldb/table/table_test.s: src/leveldb/table/table_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/table/table_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/table_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/table_test.cc.s
 .PHONY : src/leveldb/table/table_test.cc.s
 
 src/leveldb/table/two_level_iterator.o: src/leveldb/table/two_level_iterator.cc.o
@@ -1722,7 +1722,7 @@ src/leveldb/table/two_level_iterator.o: src/leveldb/table/two_level_iterator.cc.
 
 # target to build an object file
 src/leveldb/table/two_level_iterator.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/two_level_iterator.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/two_level_iterator.cc.o
 .PHONY : src/leveldb/table/two_level_iterator.cc.o
 
 src/leveldb/table/two_level_iterator.i: src/leveldb/table/two_level_iterator.cc.i
@@ -1731,7 +1731,7 @@ src/leveldb/table/two_level_iterator.i: src/leveldb/table/two_level_iterator.cc.
 
 # target to preprocess a source file
 src/leveldb/table/two_level_iterator.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/two_level_iterator.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/two_level_iterator.cc.i
 .PHONY : src/leveldb/table/two_level_iterator.cc.i
 
 src/leveldb/table/two_level_iterator.s: src/leveldb/table/two_level_iterator.cc.s
@@ -1740,7 +1740,7 @@ src/leveldb/table/two_level_iterator.s: src/leveldb/table/two_level_iterator.cc.
 
 # target to generate assembly for a file
 src/leveldb/table/two_level_iterator.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/table/two_level_iterator.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/table/two_level_iterator.cc.s
 .PHONY : src/leveldb/table/two_level_iterator.cc.s
 
 src/leveldb/util/arena.o: src/leveldb/util/arena.cc.o
@@ -1749,7 +1749,7 @@ src/leveldb/util/arena.o: src/leveldb/util/arena.cc.o
 
 # target to build an object file
 src/leveldb/util/arena.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/arena.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/arena.cc.o
 .PHONY : src/leveldb/util/arena.cc.o
 
 src/leveldb/util/arena.i: src/leveldb/util/arena.cc.i
@@ -1758,7 +1758,7 @@ src/leveldb/util/arena.i: src/leveldb/util/arena.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/arena.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/arena.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/arena.cc.i
 .PHONY : src/leveldb/util/arena.cc.i
 
 src/leveldb/util/arena.s: src/leveldb/util/arena.cc.s
@@ -1767,7 +1767,7 @@ src/leveldb/util/arena.s: src/leveldb/util/arena.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/arena.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/arena.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/arena.cc.s
 .PHONY : src/leveldb/util/arena.cc.s
 
 src/leveldb/util/arena_test.o: src/leveldb/util/arena_test.cc.o
@@ -1776,7 +1776,7 @@ src/leveldb/util/arena_test.o: src/leveldb/util/arena_test.cc.o
 
 # target to build an object file
 src/leveldb/util/arena_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/arena_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/arena_test.cc.o
 .PHONY : src/leveldb/util/arena_test.cc.o
 
 src/leveldb/util/arena_test.i: src/leveldb/util/arena_test.cc.i
@@ -1785,7 +1785,7 @@ src/leveldb/util/arena_test.i: src/leveldb/util/arena_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/arena_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/arena_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/arena_test.cc.i
 .PHONY : src/leveldb/util/arena_test.cc.i
 
 src/leveldb/util/arena_test.s: src/leveldb/util/arena_test.cc.s
@@ -1794,7 +1794,7 @@ src/leveldb/util/arena_test.s: src/leveldb/util/arena_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/arena_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/arena_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/arena_test.cc.s
 .PHONY : src/leveldb/util/arena_test.cc.s
 
 src/leveldb/util/bloom.o: src/leveldb/util/bloom.cc.o
@@ -1803,7 +1803,7 @@ src/leveldb/util/bloom.o: src/leveldb/util/bloom.cc.o
 
 # target to build an object file
 src/leveldb/util/bloom.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/bloom.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/bloom.cc.o
 .PHONY : src/leveldb/util/bloom.cc.o
 
 src/leveldb/util/bloom.i: src/leveldb/util/bloom.cc.i
@@ -1812,7 +1812,7 @@ src/leveldb/util/bloom.i: src/leveldb/util/bloom.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/bloom.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/bloom.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/bloom.cc.i
 .PHONY : src/leveldb/util/bloom.cc.i
 
 src/leveldb/util/bloom.s: src/leveldb/util/bloom.cc.s
@@ -1821,7 +1821,7 @@ src/leveldb/util/bloom.s: src/leveldb/util/bloom.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/bloom.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/bloom.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/bloom.cc.s
 .PHONY : src/leveldb/util/bloom.cc.s
 
 src/leveldb/util/bloom_test.o: src/leveldb/util/bloom_test.cc.o
@@ -1830,7 +1830,7 @@ src/leveldb/util/bloom_test.o: src/leveldb/util/bloom_test.cc.o
 
 # target to build an object file
 src/leveldb/util/bloom_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/bloom_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/bloom_test.cc.o
 .PHONY : src/leveldb/util/bloom_test.cc.o
 
 src/leveldb/util/bloom_test.i: src/leveldb/util/bloom_test.cc.i
@@ -1839,7 +1839,7 @@ src/leveldb/util/bloom_test.i: src/leveldb/util/bloom_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/bloom_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/bloom_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/bloom_test.cc.i
 .PHONY : src/leveldb/util/bloom_test.cc.i
 
 src/leveldb/util/bloom_test.s: src/leveldb/util/bloom_test.cc.s
@@ -1848,7 +1848,7 @@ src/leveldb/util/bloom_test.s: src/leveldb/util/bloom_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/bloom_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/bloom_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/bloom_test.cc.s
 .PHONY : src/leveldb/util/bloom_test.cc.s
 
 src/leveldb/util/cache.o: src/leveldb/util/cache.cc.o
@@ -1857,7 +1857,7 @@ src/leveldb/util/cache.o: src/leveldb/util/cache.cc.o
 
 # target to build an object file
 src/leveldb/util/cache.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/cache.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/cache.cc.o
 .PHONY : src/leveldb/util/cache.cc.o
 
 src/leveldb/util/cache.i: src/leveldb/util/cache.cc.i
@@ -1866,7 +1866,7 @@ src/leveldb/util/cache.i: src/leveldb/util/cache.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/cache.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/cache.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/cache.cc.i
 .PHONY : src/leveldb/util/cache.cc.i
 
 src/leveldb/util/cache.s: src/leveldb/util/cache.cc.s
@@ -1875,7 +1875,7 @@ src/leveldb/util/cache.s: src/leveldb/util/cache.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/cache.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/cache.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/cache.cc.s
 .PHONY : src/leveldb/util/cache.cc.s
 
 src/leveldb/util/cache_test.o: src/leveldb/util/cache_test.cc.o
@@ -1884,7 +1884,7 @@ src/leveldb/util/cache_test.o: src/leveldb/util/cache_test.cc.o
 
 # target to build an object file
 src/leveldb/util/cache_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/cache_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/cache_test.cc.o
 .PHONY : src/leveldb/util/cache_test.cc.o
 
 src/leveldb/util/cache_test.i: src/leveldb/util/cache_test.cc.i
@@ -1893,7 +1893,7 @@ src/leveldb/util/cache_test.i: src/leveldb/util/cache_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/cache_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/cache_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/cache_test.cc.i
 .PHONY : src/leveldb/util/cache_test.cc.i
 
 src/leveldb/util/cache_test.s: src/leveldb/util/cache_test.cc.s
@@ -1902,7 +1902,7 @@ src/leveldb/util/cache_test.s: src/leveldb/util/cache_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/cache_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/cache_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/cache_test.cc.s
 .PHONY : src/leveldb/util/cache_test.cc.s
 
 src/leveldb/util/coding.o: src/leveldb/util/coding.cc.o
@@ -1911,7 +1911,7 @@ src/leveldb/util/coding.o: src/leveldb/util/coding.cc.o
 
 # target to build an object file
 src/leveldb/util/coding.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/coding.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/coding.cc.o
 .PHONY : src/leveldb/util/coding.cc.o
 
 src/leveldb/util/coding.i: src/leveldb/util/coding.cc.i
@@ -1920,7 +1920,7 @@ src/leveldb/util/coding.i: src/leveldb/util/coding.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/coding.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/coding.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/coding.cc.i
 .PHONY : src/leveldb/util/coding.cc.i
 
 src/leveldb/util/coding.s: src/leveldb/util/coding.cc.s
@@ -1929,7 +1929,7 @@ src/leveldb/util/coding.s: src/leveldb/util/coding.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/coding.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/coding.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/coding.cc.s
 .PHONY : src/leveldb/util/coding.cc.s
 
 src/leveldb/util/coding_test.o: src/leveldb/util/coding_test.cc.o
@@ -1938,7 +1938,7 @@ src/leveldb/util/coding_test.o: src/leveldb/util/coding_test.cc.o
 
 # target to build an object file
 src/leveldb/util/coding_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/coding_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/coding_test.cc.o
 .PHONY : src/leveldb/util/coding_test.cc.o
 
 src/leveldb/util/coding_test.i: src/leveldb/util/coding_test.cc.i
@@ -1947,7 +1947,7 @@ src/leveldb/util/coding_test.i: src/leveldb/util/coding_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/coding_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/coding_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/coding_test.cc.i
 .PHONY : src/leveldb/util/coding_test.cc.i
 
 src/leveldb/util/coding_test.s: src/leveldb/util/coding_test.cc.s
@@ -1956,7 +1956,7 @@ src/leveldb/util/coding_test.s: src/leveldb/util/coding_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/coding_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/coding_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/coding_test.cc.s
 .PHONY : src/leveldb/util/coding_test.cc.s
 
 src/leveldb/util/comparator.o: src/leveldb/util/comparator.cc.o
@@ -1965,7 +1965,7 @@ src/leveldb/util/comparator.o: src/leveldb/util/comparator.cc.o
 
 # target to build an object file
 src/leveldb/util/comparator.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/comparator.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/comparator.cc.o
 .PHONY : src/leveldb/util/comparator.cc.o
 
 src/leveldb/util/comparator.i: src/leveldb/util/comparator.cc.i
@@ -1974,7 +1974,7 @@ src/leveldb/util/comparator.i: src/leveldb/util/comparator.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/comparator.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/comparator.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/comparator.cc.i
 .PHONY : src/leveldb/util/comparator.cc.i
 
 src/leveldb/util/comparator.s: src/leveldb/util/comparator.cc.s
@@ -1983,7 +1983,7 @@ src/leveldb/util/comparator.s: src/leveldb/util/comparator.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/comparator.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/comparator.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/comparator.cc.s
 .PHONY : src/leveldb/util/comparator.cc.s
 
 src/leveldb/util/crc32c.o: src/leveldb/util/crc32c.cc.o
@@ -1992,7 +1992,7 @@ src/leveldb/util/crc32c.o: src/leveldb/util/crc32c.cc.o
 
 # target to build an object file
 src/leveldb/util/crc32c.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/crc32c.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/crc32c.cc.o
 .PHONY : src/leveldb/util/crc32c.cc.o
 
 src/leveldb/util/crc32c.i: src/leveldb/util/crc32c.cc.i
@@ -2001,7 +2001,7 @@ src/leveldb/util/crc32c.i: src/leveldb/util/crc32c.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/crc32c.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/crc32c.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/crc32c.cc.i
 .PHONY : src/leveldb/util/crc32c.cc.i
 
 src/leveldb/util/crc32c.s: src/leveldb/util/crc32c.cc.s
@@ -2010,7 +2010,7 @@ src/leveldb/util/crc32c.s: src/leveldb/util/crc32c.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/crc32c.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/crc32c.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/crc32c.cc.s
 .PHONY : src/leveldb/util/crc32c.cc.s
 
 src/leveldb/util/crc32c_test.o: src/leveldb/util/crc32c_test.cc.o
@@ -2019,7 +2019,7 @@ src/leveldb/util/crc32c_test.o: src/leveldb/util/crc32c_test.cc.o
 
 # target to build an object file
 src/leveldb/util/crc32c_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/crc32c_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/crc32c_test.cc.o
 .PHONY : src/leveldb/util/crc32c_test.cc.o
 
 src/leveldb/util/crc32c_test.i: src/leveldb/util/crc32c_test.cc.i
@@ -2028,7 +2028,7 @@ src/leveldb/util/crc32c_test.i: src/leveldb/util/crc32c_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/crc32c_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/crc32c_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/crc32c_test.cc.i
 .PHONY : src/leveldb/util/crc32c_test.cc.i
 
 src/leveldb/util/crc32c_test.s: src/leveldb/util/crc32c_test.cc.s
@@ -2037,7 +2037,7 @@ src/leveldb/util/crc32c_test.s: src/leveldb/util/crc32c_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/crc32c_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/crc32c_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/crc32c_test.cc.s
 .PHONY : src/leveldb/util/crc32c_test.cc.s
 
 src/leveldb/util/env.o: src/leveldb/util/env.cc.o
@@ -2046,7 +2046,7 @@ src/leveldb/util/env.o: src/leveldb/util/env.cc.o
 
 # target to build an object file
 src/leveldb/util/env.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env.cc.o
 .PHONY : src/leveldb/util/env.cc.o
 
 src/leveldb/util/env.i: src/leveldb/util/env.cc.i
@@ -2055,7 +2055,7 @@ src/leveldb/util/env.i: src/leveldb/util/env.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/env.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env.cc.i
 .PHONY : src/leveldb/util/env.cc.i
 
 src/leveldb/util/env.s: src/leveldb/util/env.cc.s
@@ -2064,7 +2064,7 @@ src/leveldb/util/env.s: src/leveldb/util/env.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/env.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env.cc.s
 .PHONY : src/leveldb/util/env.cc.s
 
 src/leveldb/util/env_posix.o: src/leveldb/util/env_posix.cc.o
@@ -2073,7 +2073,7 @@ src/leveldb/util/env_posix.o: src/leveldb/util/env_posix.cc.o
 
 # target to build an object file
 src/leveldb/util/env_posix.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env_posix.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env_posix.cc.o
 .PHONY : src/leveldb/util/env_posix.cc.o
 
 src/leveldb/util/env_posix.i: src/leveldb/util/env_posix.cc.i
@@ -2082,7 +2082,7 @@ src/leveldb/util/env_posix.i: src/leveldb/util/env_posix.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/env_posix.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env_posix.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env_posix.cc.i
 .PHONY : src/leveldb/util/env_posix.cc.i
 
 src/leveldb/util/env_posix.s: src/leveldb/util/env_posix.cc.s
@@ -2091,7 +2091,7 @@ src/leveldb/util/env_posix.s: src/leveldb/util/env_posix.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/env_posix.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env_posix.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env_posix.cc.s
 .PHONY : src/leveldb/util/env_posix.cc.s
 
 src/leveldb/util/env_test.o: src/leveldb/util/env_test.cc.o
@@ -2100,7 +2100,7 @@ src/leveldb/util/env_test.o: src/leveldb/util/env_test.cc.o
 
 # target to build an object file
 src/leveldb/util/env_test.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env_test.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env_test.cc.o
 .PHONY : src/leveldb/util/env_test.cc.o
 
 src/leveldb/util/env_test.i: src/leveldb/util/env_test.cc.i
@@ -2109,7 +2109,7 @@ src/leveldb/util/env_test.i: src/leveldb/util/env_test.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/env_test.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env_test.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env_test.cc.i
 .PHONY : src/leveldb/util/env_test.cc.i
 
 src/leveldb/util/env_test.s: src/leveldb/util/env_test.cc.s
@@ -2118,7 +2118,7 @@ src/leveldb/util/env_test.s: src/leveldb/util/env_test.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/env_test.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env_test.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env_test.cc.s
 .PHONY : src/leveldb/util/env_test.cc.s
 
 src/leveldb/util/env_win.o: src/leveldb/util/env_win.cc.o
@@ -2127,7 +2127,7 @@ src/leveldb/util/env_win.o: src/leveldb/util/env_win.cc.o
 
 # target to build an object file
 src/leveldb/util/env_win.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env_win.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env_win.cc.o
 .PHONY : src/leveldb/util/env_win.cc.o
 
 src/leveldb/util/env_win.i: src/leveldb/util/env_win.cc.i
@@ -2136,7 +2136,7 @@ src/leveldb/util/env_win.i: src/leveldb/util/env_win.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/env_win.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env_win.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env_win.cc.i
 .PHONY : src/leveldb/util/env_win.cc.i
 
 src/leveldb/util/env_win.s: src/leveldb/util/env_win.cc.s
@@ -2145,7 +2145,7 @@ src/leveldb/util/env_win.s: src/leveldb/util/env_win.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/env_win.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/env_win.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/env_win.cc.s
 .PHONY : src/leveldb/util/env_win.cc.s
 
 src/leveldb/util/filter_policy.o: src/leveldb/util/filter_policy.cc.o
@@ -2154,7 +2154,7 @@ src/leveldb/util/filter_policy.o: src/leveldb/util/filter_policy.cc.o
 
 # target to build an object file
 src/leveldb/util/filter_policy.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/filter_policy.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/filter_policy.cc.o
 .PHONY : src/leveldb/util/filter_policy.cc.o
 
 src/leveldb/util/filter_policy.i: src/leveldb/util/filter_policy.cc.i
@@ -2163,7 +2163,7 @@ src/leveldb/util/filter_policy.i: src/leveldb/util/filter_policy.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/filter_policy.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/filter_policy.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/filter_policy.cc.i
 .PHONY : src/leveldb/util/filter_policy.cc.i
 
 src/leveldb/util/filter_policy.s: src/leveldb/util/filter_policy.cc.s
@@ -2172,7 +2172,7 @@ src/leveldb/util/filter_policy.s: src/leveldb/util/filter_policy.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/filter_policy.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/filter_policy.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/filter_policy.cc.s
 .PHONY : src/leveldb/util/filter_policy.cc.s
 
 src/leveldb/util/hash.o: src/leveldb/util/hash.cc.o
@@ -2181,7 +2181,7 @@ src/leveldb/util/hash.o: src/leveldb/util/hash.cc.o
 
 # target to build an object file
 src/leveldb/util/hash.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/hash.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/hash.cc.o
 .PHONY : src/leveldb/util/hash.cc.o
 
 src/leveldb/util/hash.i: src/leveldb/util/hash.cc.i
@@ -2190,7 +2190,7 @@ src/leveldb/util/hash.i: src/leveldb/util/hash.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/hash.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/hash.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/hash.cc.i
 .PHONY : src/leveldb/util/hash.cc.i
 
 src/leveldb/util/hash.s: src/leveldb/util/hash.cc.s
@@ -2199,7 +2199,7 @@ src/leveldb/util/hash.s: src/leveldb/util/hash.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/hash.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/hash.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/hash.cc.s
 .PHONY : src/leveldb/util/hash.cc.s
 
 src/leveldb/util/histogram.o: src/leveldb/util/histogram.cc.o
@@ -2208,7 +2208,7 @@ src/leveldb/util/histogram.o: src/leveldb/util/histogram.cc.o
 
 # target to build an object file
 src/leveldb/util/histogram.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/histogram.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/histogram.cc.o
 .PHONY : src/leveldb/util/histogram.cc.o
 
 src/leveldb/util/histogram.i: src/leveldb/util/histogram.cc.i
@@ -2217,7 +2217,7 @@ src/leveldb/util/histogram.i: src/leveldb/util/histogram.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/histogram.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/histogram.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/histogram.cc.i
 .PHONY : src/leveldb/util/histogram.cc.i
 
 src/leveldb/util/histogram.s: src/leveldb/util/histogram.cc.s
@@ -2226,7 +2226,7 @@ src/leveldb/util/histogram.s: src/leveldb/util/histogram.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/histogram.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/histogram.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/histogram.cc.s
 .PHONY : src/leveldb/util/histogram.cc.s
 
 src/leveldb/util/logging.o: src/leveldb/util/logging.cc.o
@@ -2235,7 +2235,7 @@ src/leveldb/util/logging.o: src/leveldb/util/logging.cc.o
 
 # target to build an object file
 src/leveldb/util/logging.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/logging.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/logging.cc.o
 .PHONY : src/leveldb/util/logging.cc.o
 
 src/leveldb/util/logging.i: src/leveldb/util/logging.cc.i
@@ -2244,7 +2244,7 @@ src/leveldb/util/logging.i: src/leveldb/util/logging.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/logging.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/logging.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/logging.cc.i
 .PHONY : src/leveldb/util/logging.cc.i
 
 src/leveldb/util/logging.s: src/leveldb/util/logging.cc.s
@@ -2253,7 +2253,7 @@ src/leveldb/util/logging.s: src/leveldb/util/logging.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/logging.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/logging.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/logging.cc.s
 .PHONY : src/leveldb/util/logging.cc.s
 
 src/leveldb/util/options.o: src/leveldb/util/options.cc.o
@@ -2262,7 +2262,7 @@ src/leveldb/util/options.o: src/leveldb/util/options.cc.o
 
 # target to build an object file
 src/leveldb/util/options.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/options.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/options.cc.o
 .PHONY : src/leveldb/util/options.cc.o
 
 src/leveldb/util/options.i: src/leveldb/util/options.cc.i
@@ -2271,7 +2271,7 @@ src/leveldb/util/options.i: src/leveldb/util/options.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/options.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/options.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/options.cc.i
 .PHONY : src/leveldb/util/options.cc.i
 
 src/leveldb/util/options.s: src/leveldb/util/options.cc.s
@@ -2280,7 +2280,7 @@ src/leveldb/util/options.s: src/leveldb/util/options.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/options.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/options.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/options.cc.s
 .PHONY : src/leveldb/util/options.cc.s
 
 src/leveldb/util/status.o: src/leveldb/util/status.cc.o
@@ -2289,7 +2289,7 @@ src/leveldb/util/status.o: src/leveldb/util/status.cc.o
 
 # target to build an object file
 src/leveldb/util/status.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/status.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/status.cc.o
 .PHONY : src/leveldb/util/status.cc.o
 
 src/leveldb/util/status.i: src/leveldb/util/status.cc.i
@@ -2298,7 +2298,7 @@ src/leveldb/util/status.i: src/leveldb/util/status.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/status.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/status.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/status.cc.i
 .PHONY : src/leveldb/util/status.cc.i
 
 src/leveldb/util/status.s: src/leveldb/util/status.cc.s
@@ -2307,7 +2307,7 @@ src/leveldb/util/status.s: src/leveldb/util/status.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/status.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/status.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/status.cc.s
 .PHONY : src/leveldb/util/status.cc.s
 
 src/leveldb/util/testharness.o: src/leveldb/util/testharness.cc.o
@@ -2316,7 +2316,7 @@ src/leveldb/util/testharness.o: src/leveldb/util/testharness.cc.o
 
 # target to build an object file
 src/leveldb/util/testharness.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/testharness.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/testharness.cc.o
 .PHONY : src/leveldb/util/testharness.cc.o
 
 src/leveldb/util/testharness.i: src/leveldb/util/testharness.cc.i
@@ -2325,7 +2325,7 @@ src/leveldb/util/testharness.i: src/leveldb/util/testharness.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/testharness.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/testharness.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/testharness.cc.i
 .PHONY : src/leveldb/util/testharness.cc.i
 
 src/leveldb/util/testharness.s: src/leveldb/util/testharness.cc.s
@@ -2334,7 +2334,7 @@ src/leveldb/util/testharness.s: src/leveldb/util/testharness.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/testharness.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/testharness.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/testharness.cc.s
 .PHONY : src/leveldb/util/testharness.cc.s
 
 src/leveldb/util/testutil.o: src/leveldb/util/testutil.cc.o
@@ -2343,7 +2343,7 @@ src/leveldb/util/testutil.o: src/leveldb/util/testutil.cc.o
 
 # target to build an object file
 src/leveldb/util/testutil.cc.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/testutil.cc.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/testutil.cc.o
 .PHONY : src/leveldb/util/testutil.cc.o
 
 src/leveldb/util/testutil.i: src/leveldb/util/testutil.cc.i
@@ -2352,7 +2352,7 @@ src/leveldb/util/testutil.i: src/leveldb/util/testutil.cc.i
 
 # target to preprocess a source file
 src/leveldb/util/testutil.cc.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/testutil.cc.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/testutil.cc.i
 .PHONY : src/leveldb/util/testutil.cc.i
 
 src/leveldb/util/testutil.s: src/leveldb/util/testutil.cc.s
@@ -2361,7 +2361,7 @@ src/leveldb/util/testutil.s: src/leveldb/util/testutil.cc.s
 
 # target to generate assembly for a file
 src/leveldb/util/testutil.cc.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/leveldb/util/testutil.cc.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/leveldb/util/testutil.cc.s
 .PHONY : src/leveldb/util/testutil.cc.s
 
 src/main.o: src/main.cpp.o
@@ -2370,7 +2370,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -2379,7 +2379,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -2388,7 +2388,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/net.o: src/net.cpp.o
@@ -2397,7 +2397,7 @@ src/net.o: src/net.cpp.o
 
 # target to build an object file
 src/net.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/net.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/net.cpp.o
 .PHONY : src/net.cpp.o
 
 src/net.i: src/net.cpp.i
@@ -2406,7 +2406,7 @@ src/net.i: src/net.cpp.i
 
 # target to preprocess a source file
 src/net.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/net.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/net.cpp.i
 .PHONY : src/net.cpp.i
 
 src/net.s: src/net.cpp.s
@@ -2415,7 +2415,7 @@ src/net.s: src/net.cpp.s
 
 # target to generate assembly for a file
 src/net.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/net.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/net.cpp.s
 .PHONY : src/net.cpp.s
 
 src/netbase.o: src/netbase.cpp.o
@@ -2424,7 +2424,7 @@ src/netbase.o: src/netbase.cpp.o
 
 # target to build an object file
 src/netbase.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/netbase.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/netbase.cpp.o
 .PHONY : src/netbase.cpp.o
 
 src/netbase.i: src/netbase.cpp.i
@@ -2433,7 +2433,7 @@ src/netbase.i: src/netbase.cpp.i
 
 # target to preprocess a source file
 src/netbase.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/netbase.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/netbase.cpp.i
 .PHONY : src/netbase.cpp.i
 
 src/netbase.s: src/netbase.cpp.s
@@ -2442,7 +2442,7 @@ src/netbase.s: src/netbase.cpp.s
 
 # target to generate assembly for a file
 src/netbase.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/netbase.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/netbase.cpp.s
 .PHONY : src/netbase.cpp.s
 
 src/noui.o: src/noui.cpp.o
@@ -2451,7 +2451,7 @@ src/noui.o: src/noui.cpp.o
 
 # target to build an object file
 src/noui.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/noui.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/noui.cpp.o
 .PHONY : src/noui.cpp.o
 
 src/noui.i: src/noui.cpp.i
@@ -2460,7 +2460,7 @@ src/noui.i: src/noui.cpp.i
 
 # target to preprocess a source file
 src/noui.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/noui.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/noui.cpp.i
 .PHONY : src/noui.cpp.i
 
 src/noui.s: src/noui.cpp.s
@@ -2469,7 +2469,7 @@ src/noui.s: src/noui.cpp.s
 
 # target to generate assembly for a file
 src/noui.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/noui.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/noui.cpp.s
 .PHONY : src/noui.cpp.s
 
 src/protocol.o: src/protocol.cpp.o
@@ -2478,7 +2478,7 @@ src/protocol.o: src/protocol.cpp.o
 
 # target to build an object file
 src/protocol.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/protocol.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/protocol.cpp.o
 .PHONY : src/protocol.cpp.o
 
 src/protocol.i: src/protocol.cpp.i
@@ -2487,7 +2487,7 @@ src/protocol.i: src/protocol.cpp.i
 
 # target to preprocess a source file
 src/protocol.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/protocol.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/protocol.cpp.i
 .PHONY : src/protocol.cpp.i
 
 src/protocol.s: src/protocol.cpp.s
@@ -2496,7 +2496,7 @@ src/protocol.s: src/protocol.cpp.s
 
 # target to generate assembly for a file
 src/protocol.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/protocol.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/protocol.cpp.s
 .PHONY : src/protocol.cpp.s
 
 src/qt/aboutdialog.o: src/qt/aboutdialog.cpp.o
@@ -2505,7 +2505,7 @@ src/qt/aboutdialog.o: src/qt/aboutdialog.cpp.o
 
 # target to build an object file
 src/qt/aboutdialog.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/aboutdialog.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/aboutdialog.cpp.o
 .PHONY : src/qt/aboutdialog.cpp.o
 
 src/qt/aboutdialog.i: src/qt/aboutdialog.cpp.i
@@ -2514,7 +2514,7 @@ src/qt/aboutdialog.i: src/qt/aboutdialog.cpp.i
 
 # target to preprocess a source file
 src/qt/aboutdialog.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/aboutdialog.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/aboutdialog.cpp.i
 .PHONY : src/qt/aboutdialog.cpp.i
 
 src/qt/aboutdialog.s: src/qt/aboutdialog.cpp.s
@@ -2523,7 +2523,7 @@ src/qt/aboutdialog.s: src/qt/aboutdialog.cpp.s
 
 # target to generate assembly for a file
 src/qt/aboutdialog.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/aboutdialog.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/aboutdialog.cpp.s
 .PHONY : src/qt/aboutdialog.cpp.s
 
 src/qt/addressbookpage.o: src/qt/addressbookpage.cpp.o
@@ -2532,7 +2532,7 @@ src/qt/addressbookpage.o: src/qt/addressbookpage.cpp.o
 
 # target to build an object file
 src/qt/addressbookpage.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/addressbookpage.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/addressbookpage.cpp.o
 .PHONY : src/qt/addressbookpage.cpp.o
 
 src/qt/addressbookpage.i: src/qt/addressbookpage.cpp.i
@@ -2541,7 +2541,7 @@ src/qt/addressbookpage.i: src/qt/addressbookpage.cpp.i
 
 # target to preprocess a source file
 src/qt/addressbookpage.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/addressbookpage.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/addressbookpage.cpp.i
 .PHONY : src/qt/addressbookpage.cpp.i
 
 src/qt/addressbookpage.s: src/qt/addressbookpage.cpp.s
@@ -2550,7 +2550,7 @@ src/qt/addressbookpage.s: src/qt/addressbookpage.cpp.s
 
 # target to generate assembly for a file
 src/qt/addressbookpage.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/addressbookpage.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/addressbookpage.cpp.s
 .PHONY : src/qt/addressbookpage.cpp.s
 
 src/qt/addresstablemodel.o: src/qt/addresstablemodel.cpp.o
@@ -2559,7 +2559,7 @@ src/qt/addresstablemodel.o: src/qt/addresstablemodel.cpp.o
 
 # target to build an object file
 src/qt/addresstablemodel.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/addresstablemodel.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/addresstablemodel.cpp.o
 .PHONY : src/qt/addresstablemodel.cpp.o
 
 src/qt/addresstablemodel.i: src/qt/addresstablemodel.cpp.i
@@ -2568,7 +2568,7 @@ src/qt/addresstablemodel.i: src/qt/addresstablemodel.cpp.i
 
 # target to preprocess a source file
 src/qt/addresstablemodel.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/addresstablemodel.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/addresstablemodel.cpp.i
 .PHONY : src/qt/addresstablemodel.cpp.i
 
 src/qt/addresstablemodel.s: src/qt/addresstablemodel.cpp.s
@@ -2577,7 +2577,7 @@ src/qt/addresstablemodel.s: src/qt/addresstablemodel.cpp.s
 
 # target to generate assembly for a file
 src/qt/addresstablemodel.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/addresstablemodel.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/addresstablemodel.cpp.s
 .PHONY : src/qt/addresstablemodel.cpp.s
 
 src/qt/askpassphrasedialog.o: src/qt/askpassphrasedialog.cpp.o
@@ -2586,7 +2586,7 @@ src/qt/askpassphrasedialog.o: src/qt/askpassphrasedialog.cpp.o
 
 # target to build an object file
 src/qt/askpassphrasedialog.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/askpassphrasedialog.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/askpassphrasedialog.cpp.o
 .PHONY : src/qt/askpassphrasedialog.cpp.o
 
 src/qt/askpassphrasedialog.i: src/qt/askpassphrasedialog.cpp.i
@@ -2595,7 +2595,7 @@ src/qt/askpassphrasedialog.i: src/qt/askpassphrasedialog.cpp.i
 
 # target to preprocess a source file
 src/qt/askpassphrasedialog.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/askpassphrasedialog.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/askpassphrasedialog.cpp.i
 .PHONY : src/qt/askpassphrasedialog.cpp.i
 
 src/qt/askpassphrasedialog.s: src/qt/askpassphrasedialog.cpp.s
@@ -2604,7 +2604,7 @@ src/qt/askpassphrasedialog.s: src/qt/askpassphrasedialog.cpp.s
 
 # target to generate assembly for a file
 src/qt/askpassphrasedialog.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/askpassphrasedialog.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/askpassphrasedialog.cpp.s
 .PHONY : src/qt/askpassphrasedialog.cpp.s
 
 src/qt/bitcoin.o: src/qt/bitcoin.cpp.o
@@ -2613,7 +2613,7 @@ src/qt/bitcoin.o: src/qt/bitcoin.cpp.o
 
 # target to build an object file
 src/qt/bitcoin.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoin.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoin.cpp.o
 .PHONY : src/qt/bitcoin.cpp.o
 
 src/qt/bitcoin.i: src/qt/bitcoin.cpp.i
@@ -2622,7 +2622,7 @@ src/qt/bitcoin.i: src/qt/bitcoin.cpp.i
 
 # target to preprocess a source file
 src/qt/bitcoin.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoin.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoin.cpp.i
 .PHONY : src/qt/bitcoin.cpp.i
 
 src/qt/bitcoin.s: src/qt/bitcoin.cpp.s
@@ -2631,7 +2631,7 @@ src/qt/bitcoin.s: src/qt/bitcoin.cpp.s
 
 # target to generate assembly for a file
 src/qt/bitcoin.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoin.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoin.cpp.s
 .PHONY : src/qt/bitcoin.cpp.s
 
 src/qt/bitcoinaddressvalidator.o: src/qt/bitcoinaddressvalidator.cpp.o
@@ -2640,7 +2640,7 @@ src/qt/bitcoinaddressvalidator.o: src/qt/bitcoinaddressvalidator.cpp.o
 
 # target to build an object file
 src/qt/bitcoinaddressvalidator.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinaddressvalidator.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinaddressvalidator.cpp.o
 .PHONY : src/qt/bitcoinaddressvalidator.cpp.o
 
 src/qt/bitcoinaddressvalidator.i: src/qt/bitcoinaddressvalidator.cpp.i
@@ -2649,7 +2649,7 @@ src/qt/bitcoinaddressvalidator.i: src/qt/bitcoinaddressvalidator.cpp.i
 
 # target to preprocess a source file
 src/qt/bitcoinaddressvalidator.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinaddressvalidator.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinaddressvalidator.cpp.i
 .PHONY : src/qt/bitcoinaddressvalidator.cpp.i
 
 src/qt/bitcoinaddressvalidator.s: src/qt/bitcoinaddressvalidator.cpp.s
@@ -2658,7 +2658,7 @@ src/qt/bitcoinaddressvalidator.s: src/qt/bitcoinaddressvalidator.cpp.s
 
 # target to generate assembly for a file
 src/qt/bitcoinaddressvalidator.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinaddressvalidator.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinaddressvalidator.cpp.s
 .PHONY : src/qt/bitcoinaddressvalidator.cpp.s
 
 src/qt/bitcoinamountfield.o: src/qt/bitcoinamountfield.cpp.o
@@ -2667,7 +2667,7 @@ src/qt/bitcoinamountfield.o: src/qt/bitcoinamountfield.cpp.o
 
 # target to build an object file
 src/qt/bitcoinamountfield.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinamountfield.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinamountfield.cpp.o
 .PHONY : src/qt/bitcoinamountfield.cpp.o
 
 src/qt/bitcoinamountfield.i: src/qt/bitcoinamountfield.cpp.i
@@ -2676,7 +2676,7 @@ src/qt/bitcoinamountfield.i: src/qt/bitcoinamountfield.cpp.i
 
 # target to preprocess a source file
 src/qt/bitcoinamountfield.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinamountfield.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinamountfield.cpp.i
 .PHONY : src/qt/bitcoinamountfield.cpp.i
 
 src/qt/bitcoinamountfield.s: src/qt/bitcoinamountfield.cpp.s
@@ -2685,7 +2685,7 @@ src/qt/bitcoinamountfield.s: src/qt/bitcoinamountfield.cpp.s
 
 # target to generate assembly for a file
 src/qt/bitcoinamountfield.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinamountfield.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinamountfield.cpp.s
 .PHONY : src/qt/bitcoinamountfield.cpp.s
 
 src/qt/bitcoingui.o: src/qt/bitcoingui.cpp.o
@@ -2694,7 +2694,7 @@ src/qt/bitcoingui.o: src/qt/bitcoingui.cpp.o
 
 # target to build an object file
 src/qt/bitcoingui.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoingui.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoingui.cpp.o
 .PHONY : src/qt/bitcoingui.cpp.o
 
 src/qt/bitcoingui.i: src/qt/bitcoingui.cpp.i
@@ -2703,7 +2703,7 @@ src/qt/bitcoingui.i: src/qt/bitcoingui.cpp.i
 
 # target to preprocess a source file
 src/qt/bitcoingui.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoingui.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoingui.cpp.i
 .PHONY : src/qt/bitcoingui.cpp.i
 
 src/qt/bitcoingui.s: src/qt/bitcoingui.cpp.s
@@ -2712,7 +2712,7 @@ src/qt/bitcoingui.s: src/qt/bitcoingui.cpp.s
 
 # target to generate assembly for a file
 src/qt/bitcoingui.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoingui.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoingui.cpp.s
 .PHONY : src/qt/bitcoingui.cpp.s
 
 src/qt/bitcoinstrings.o: src/qt/bitcoinstrings.cpp.o
@@ -2721,7 +2721,7 @@ src/qt/bitcoinstrings.o: src/qt/bitcoinstrings.cpp.o
 
 # target to build an object file
 src/qt/bitcoinstrings.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinstrings.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinstrings.cpp.o
 .PHONY : src/qt/bitcoinstrings.cpp.o
 
 src/qt/bitcoinstrings.i: src/qt/bitcoinstrings.cpp.i
@@ -2730,7 +2730,7 @@ src/qt/bitcoinstrings.i: src/qt/bitcoinstrings.cpp.i
 
 # target to preprocess a source file
 src/qt/bitcoinstrings.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinstrings.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinstrings.cpp.i
 .PHONY : src/qt/bitcoinstrings.cpp.i
 
 src/qt/bitcoinstrings.s: src/qt/bitcoinstrings.cpp.s
@@ -2739,7 +2739,7 @@ src/qt/bitcoinstrings.s: src/qt/bitcoinstrings.cpp.s
 
 # target to generate assembly for a file
 src/qt/bitcoinstrings.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinstrings.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinstrings.cpp.s
 .PHONY : src/qt/bitcoinstrings.cpp.s
 
 src/qt/bitcoinunits.o: src/qt/bitcoinunits.cpp.o
@@ -2748,7 +2748,7 @@ src/qt/bitcoinunits.o: src/qt/bitcoinunits.cpp.o
 
 # target to build an object file
 src/qt/bitcoinunits.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinunits.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinunits.cpp.o
 .PHONY : src/qt/bitcoinunits.cpp.o
 
 src/qt/bitcoinunits.i: src/qt/bitcoinunits.cpp.i
@@ -2757,7 +2757,7 @@ src/qt/bitcoinunits.i: src/qt/bitcoinunits.cpp.i
 
 # target to preprocess a source file
 src/qt/bitcoinunits.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinunits.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinunits.cpp.i
 .PHONY : src/qt/bitcoinunits.cpp.i
 
 src/qt/bitcoinunits.s: src/qt/bitcoinunits.cpp.s
@@ -2766,7 +2766,7 @@ src/qt/bitcoinunits.s: src/qt/bitcoinunits.cpp.s
 
 # target to generate assembly for a file
 src/qt/bitcoinunits.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/bitcoinunits.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/bitcoinunits.cpp.s
 .PHONY : src/qt/bitcoinunits.cpp.s
 
 src/qt/clientmodel.o: src/qt/clientmodel.cpp.o
@@ -2775,7 +2775,7 @@ src/qt/clientmodel.o: src/qt/clientmodel.cpp.o
 
 # target to build an object file
 src/qt/clientmodel.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/clientmodel.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/clientmodel.cpp.o
 .PHONY : src/qt/clientmodel.cpp.o
 
 src/qt/clientmodel.i: src/qt/clientmodel.cpp.i
@@ -2784,7 +2784,7 @@ src/qt/clientmodel.i: src/qt/clientmodel.cpp.i
 
 # target to preprocess a source file
 src/qt/clientmodel.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/clientmodel.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/clientmodel.cpp.i
 .PHONY : src/qt/clientmodel.cpp.i
 
 src/qt/clientmodel.s: src/qt/clientmodel.cpp.s
@@ -2793,7 +2793,7 @@ src/qt/clientmodel.s: src/qt/clientmodel.cpp.s
 
 # target to generate assembly for a file
 src/qt/clientmodel.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/clientmodel.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/clientmodel.cpp.s
 .PHONY : src/qt/clientmodel.cpp.s
 
 src/qt/csvmodelwriter.o: src/qt/csvmodelwriter.cpp.o
@@ -2802,7 +2802,7 @@ src/qt/csvmodelwriter.o: src/qt/csvmodelwriter.cpp.o
 
 # target to build an object file
 src/qt/csvmodelwriter.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/csvmodelwriter.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/csvmodelwriter.cpp.o
 .PHONY : src/qt/csvmodelwriter.cpp.o
 
 src/qt/csvmodelwriter.i: src/qt/csvmodelwriter.cpp.i
@@ -2811,7 +2811,7 @@ src/qt/csvmodelwriter.i: src/qt/csvmodelwriter.cpp.i
 
 # target to preprocess a source file
 src/qt/csvmodelwriter.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/csvmodelwriter.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/csvmodelwriter.cpp.i
 .PHONY : src/qt/csvmodelwriter.cpp.i
 
 src/qt/csvmodelwriter.s: src/qt/csvmodelwriter.cpp.s
@@ -2820,7 +2820,7 @@ src/qt/csvmodelwriter.s: src/qt/csvmodelwriter.cpp.s
 
 # target to generate assembly for a file
 src/qt/csvmodelwriter.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/csvmodelwriter.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/csvmodelwriter.cpp.s
 .PHONY : src/qt/csvmodelwriter.cpp.s
 
 src/qt/editaddressdialog.o: src/qt/editaddressdialog.cpp.o
@@ -2829,7 +2829,7 @@ src/qt/editaddressdialog.o: src/qt/editaddressdialog.cpp.o
 
 # target to build an object file
 src/qt/editaddressdialog.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/editaddressdialog.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/editaddressdialog.cpp.o
 .PHONY : src/qt/editaddressdialog.cpp.o
 
 src/qt/editaddressdialog.i: src/qt/editaddressdialog.cpp.i
@@ -2838,7 +2838,7 @@ src/qt/editaddressdialog.i: src/qt/editaddressdialog.cpp.i
 
 # target to preprocess a source file
 src/qt/editaddressdialog.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/editaddressdialog.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/editaddressdialog.cpp.i
 .PHONY : src/qt/editaddressdialog.cpp.i
 
 src/qt/editaddressdialog.s: src/qt/editaddressdialog.cpp.s
@@ -2847,7 +2847,7 @@ src/qt/editaddressdialog.s: src/qt/editaddressdialog.cpp.s
 
 # target to generate assembly for a file
 src/qt/editaddressdialog.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/editaddressdialog.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/editaddressdialog.cpp.s
 .PHONY : src/qt/editaddressdialog.cpp.s
 
 src/qt/guiutil.o: src/qt/guiutil.cpp.o
@@ -2856,7 +2856,7 @@ src/qt/guiutil.o: src/qt/guiutil.cpp.o
 
 # target to build an object file
 src/qt/guiutil.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/guiutil.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/guiutil.cpp.o
 .PHONY : src/qt/guiutil.cpp.o
 
 src/qt/guiutil.i: src/qt/guiutil.cpp.i
@@ -2865,7 +2865,7 @@ src/qt/guiutil.i: src/qt/guiutil.cpp.i
 
 # target to preprocess a source file
 src/qt/guiutil.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/guiutil.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/guiutil.cpp.i
 .PHONY : src/qt/guiutil.cpp.i
 
 src/qt/guiutil.s: src/qt/guiutil.cpp.s
@@ -2874,7 +2874,7 @@ src/qt/guiutil.s: src/qt/guiutil.cpp.s
 
 # target to generate assembly for a file
 src/qt/guiutil.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/guiutil.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/guiutil.cpp.s
 .PHONY : src/qt/guiutil.cpp.s
 
 src/qt/monitoreddatamapper.o: src/qt/monitoreddatamapper.cpp.o
@@ -2883,7 +2883,7 @@ src/qt/monitoreddatamapper.o: src/qt/monitoreddatamapper.cpp.o
 
 # target to build an object file
 src/qt/monitoreddatamapper.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/monitoreddatamapper.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/monitoreddatamapper.cpp.o
 .PHONY : src/qt/monitoreddatamapper.cpp.o
 
 src/qt/monitoreddatamapper.i: src/qt/monitoreddatamapper.cpp.i
@@ -2892,7 +2892,7 @@ src/qt/monitoreddatamapper.i: src/qt/monitoreddatamapper.cpp.i
 
 # target to preprocess a source file
 src/qt/monitoreddatamapper.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/monitoreddatamapper.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/monitoreddatamapper.cpp.i
 .PHONY : src/qt/monitoreddatamapper.cpp.i
 
 src/qt/monitoreddatamapper.s: src/qt/monitoreddatamapper.cpp.s
@@ -2901,7 +2901,7 @@ src/qt/monitoreddatamapper.s: src/qt/monitoreddatamapper.cpp.s
 
 # target to generate assembly for a file
 src/qt/monitoreddatamapper.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/monitoreddatamapper.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/monitoreddatamapper.cpp.s
 .PHONY : src/qt/monitoreddatamapper.cpp.s
 
 src/qt/notificator.o: src/qt/notificator.cpp.o
@@ -2910,7 +2910,7 @@ src/qt/notificator.o: src/qt/notificator.cpp.o
 
 # target to build an object file
 src/qt/notificator.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/notificator.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/notificator.cpp.o
 .PHONY : src/qt/notificator.cpp.o
 
 src/qt/notificator.i: src/qt/notificator.cpp.i
@@ -2919,7 +2919,7 @@ src/qt/notificator.i: src/qt/notificator.cpp.i
 
 # target to preprocess a source file
 src/qt/notificator.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/notificator.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/notificator.cpp.i
 .PHONY : src/qt/notificator.cpp.i
 
 src/qt/notificator.s: src/qt/notificator.cpp.s
@@ -2928,7 +2928,7 @@ src/qt/notificator.s: src/qt/notificator.cpp.s
 
 # target to generate assembly for a file
 src/qt/notificator.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/notificator.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/notificator.cpp.s
 .PHONY : src/qt/notificator.cpp.s
 
 src/qt/optionsdialog.o: src/qt/optionsdialog.cpp.o
@@ -2937,7 +2937,7 @@ src/qt/optionsdialog.o: src/qt/optionsdialog.cpp.o
 
 # target to build an object file
 src/qt/optionsdialog.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/optionsdialog.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/optionsdialog.cpp.o
 .PHONY : src/qt/optionsdialog.cpp.o
 
 src/qt/optionsdialog.i: src/qt/optionsdialog.cpp.i
@@ -2946,7 +2946,7 @@ src/qt/optionsdialog.i: src/qt/optionsdialog.cpp.i
 
 # target to preprocess a source file
 src/qt/optionsdialog.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/optionsdialog.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/optionsdialog.cpp.i
 .PHONY : src/qt/optionsdialog.cpp.i
 
 src/qt/optionsdialog.s: src/qt/optionsdialog.cpp.s
@@ -2955,7 +2955,7 @@ src/qt/optionsdialog.s: src/qt/optionsdialog.cpp.s
 
 # target to generate assembly for a file
 src/qt/optionsdialog.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/optionsdialog.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/optionsdialog.cpp.s
 .PHONY : src/qt/optionsdialog.cpp.s
 
 src/qt/optionsmodel.o: src/qt/optionsmodel.cpp.o
@@ -2964,7 +2964,7 @@ src/qt/optionsmodel.o: src/qt/optionsmodel.cpp.o
 
 # target to build an object file
 src/qt/optionsmodel.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/optionsmodel.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/optionsmodel.cpp.o
 .PHONY : src/qt/optionsmodel.cpp.o
 
 src/qt/optionsmodel.i: src/qt/optionsmodel.cpp.i
@@ -2973,7 +2973,7 @@ src/qt/optionsmodel.i: src/qt/optionsmodel.cpp.i
 
 # target to preprocess a source file
 src/qt/optionsmodel.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/optionsmodel.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/optionsmodel.cpp.i
 .PHONY : src/qt/optionsmodel.cpp.i
 
 src/qt/optionsmodel.s: src/qt/optionsmodel.cpp.s
@@ -2982,7 +2982,7 @@ src/qt/optionsmodel.s: src/qt/optionsmodel.cpp.s
 
 # target to generate assembly for a file
 src/qt/optionsmodel.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/optionsmodel.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/optionsmodel.cpp.s
 .PHONY : src/qt/optionsmodel.cpp.s
 
 src/qt/overviewpage.o: src/qt/overviewpage.cpp.o
@@ -2991,7 +2991,7 @@ src/qt/overviewpage.o: src/qt/overviewpage.cpp.o
 
 # target to build an object file
 src/qt/overviewpage.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/overviewpage.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/overviewpage.cpp.o
 .PHONY : src/qt/overviewpage.cpp.o
 
 src/qt/overviewpage.i: src/qt/overviewpage.cpp.i
@@ -3000,7 +3000,7 @@ src/qt/overviewpage.i: src/qt/overviewpage.cpp.i
 
 # target to preprocess a source file
 src/qt/overviewpage.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/overviewpage.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/overviewpage.cpp.i
 .PHONY : src/qt/overviewpage.cpp.i
 
 src/qt/overviewpage.s: src/qt/overviewpage.cpp.s
@@ -3009,7 +3009,7 @@ src/qt/overviewpage.s: src/qt/overviewpage.cpp.s
 
 # target to generate assembly for a file
 src/qt/overviewpage.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/overviewpage.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/overviewpage.cpp.s
 .PHONY : src/qt/overviewpage.cpp.s
 
 src/qt/paymentserver.o: src/qt/paymentserver.cpp.o
@@ -3018,7 +3018,7 @@ src/qt/paymentserver.o: src/qt/paymentserver.cpp.o
 
 # target to build an object file
 src/qt/paymentserver.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/paymentserver.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/paymentserver.cpp.o
 .PHONY : src/qt/paymentserver.cpp.o
 
 src/qt/paymentserver.i: src/qt/paymentserver.cpp.i
@@ -3027,7 +3027,7 @@ src/qt/paymentserver.i: src/qt/paymentserver.cpp.i
 
 # target to preprocess a source file
 src/qt/paymentserver.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/paymentserver.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/paymentserver.cpp.i
 .PHONY : src/qt/paymentserver.cpp.i
 
 src/qt/paymentserver.s: src/qt/paymentserver.cpp.s
@@ -3036,7 +3036,7 @@ src/qt/paymentserver.s: src/qt/paymentserver.cpp.s
 
 # target to generate assembly for a file
 src/qt/paymentserver.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/paymentserver.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/paymentserver.cpp.s
 .PHONY : src/qt/paymentserver.cpp.s
 
 src/qt/qrcodedialog.o: src/qt/qrcodedialog.cpp.o
@@ -3045,7 +3045,7 @@ src/qt/qrcodedialog.o: src/qt/qrcodedialog.cpp.o
 
 # target to build an object file
 src/qt/qrcodedialog.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/qrcodedialog.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/qrcodedialog.cpp.o
 .PHONY : src/qt/qrcodedialog.cpp.o
 
 src/qt/qrcodedialog.i: src/qt/qrcodedialog.cpp.i
@@ -3054,7 +3054,7 @@ src/qt/qrcodedialog.i: src/qt/qrcodedialog.cpp.i
 
 # target to preprocess a source file
 src/qt/qrcodedialog.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/qrcodedialog.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/qrcodedialog.cpp.i
 .PHONY : src/qt/qrcodedialog.cpp.i
 
 src/qt/qrcodedialog.s: src/qt/qrcodedialog.cpp.s
@@ -3063,7 +3063,7 @@ src/qt/qrcodedialog.s: src/qt/qrcodedialog.cpp.s
 
 # target to generate assembly for a file
 src/qt/qrcodedialog.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/qrcodedialog.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/qrcodedialog.cpp.s
 .PHONY : src/qt/qrcodedialog.cpp.s
 
 src/qt/qvalidatedlineedit.o: src/qt/qvalidatedlineedit.cpp.o
@@ -3072,7 +3072,7 @@ src/qt/qvalidatedlineedit.o: src/qt/qvalidatedlineedit.cpp.o
 
 # target to build an object file
 src/qt/qvalidatedlineedit.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/qvalidatedlineedit.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/qvalidatedlineedit.cpp.o
 .PHONY : src/qt/qvalidatedlineedit.cpp.o
 
 src/qt/qvalidatedlineedit.i: src/qt/qvalidatedlineedit.cpp.i
@@ -3081,7 +3081,7 @@ src/qt/qvalidatedlineedit.i: src/qt/qvalidatedlineedit.cpp.i
 
 # target to preprocess a source file
 src/qt/qvalidatedlineedit.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/qvalidatedlineedit.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/qvalidatedlineedit.cpp.i
 .PHONY : src/qt/qvalidatedlineedit.cpp.i
 
 src/qt/qvalidatedlineedit.s: src/qt/qvalidatedlineedit.cpp.s
@@ -3090,7 +3090,7 @@ src/qt/qvalidatedlineedit.s: src/qt/qvalidatedlineedit.cpp.s
 
 # target to generate assembly for a file
 src/qt/qvalidatedlineedit.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/qvalidatedlineedit.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/qvalidatedlineedit.cpp.s
 .PHONY : src/qt/qvalidatedlineedit.cpp.s
 
 src/qt/qvaluecombobox.o: src/qt/qvaluecombobox.cpp.o
@@ -3099,7 +3099,7 @@ src/qt/qvaluecombobox.o: src/qt/qvaluecombobox.cpp.o
 
 # target to build an object file
 src/qt/qvaluecombobox.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/qvaluecombobox.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/qvaluecombobox.cpp.o
 .PHONY : src/qt/qvaluecombobox.cpp.o
 
 src/qt/qvaluecombobox.i: src/qt/qvaluecombobox.cpp.i
@@ -3108,7 +3108,7 @@ src/qt/qvaluecombobox.i: src/qt/qvaluecombobox.cpp.i
 
 # target to preprocess a source file
 src/qt/qvaluecombobox.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/qvaluecombobox.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/qvaluecombobox.cpp.i
 .PHONY : src/qt/qvaluecombobox.cpp.i
 
 src/qt/qvaluecombobox.s: src/qt/qvaluecombobox.cpp.s
@@ -3117,7 +3117,7 @@ src/qt/qvaluecombobox.s: src/qt/qvaluecombobox.cpp.s
 
 # target to generate assembly for a file
 src/qt/qvaluecombobox.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/qvaluecombobox.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/qvaluecombobox.cpp.s
 .PHONY : src/qt/qvaluecombobox.cpp.s
 
 src/qt/rpcconsole.o: src/qt/rpcconsole.cpp.o
@@ -3126,7 +3126,7 @@ src/qt/rpcconsole.o: src/qt/rpcconsole.cpp.o
 
 # target to build an object file
 src/qt/rpcconsole.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/rpcconsole.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/rpcconsole.cpp.o
 .PHONY : src/qt/rpcconsole.cpp.o
 
 src/qt/rpcconsole.i: src/qt/rpcconsole.cpp.i
@@ -3135,7 +3135,7 @@ src/qt/rpcconsole.i: src/qt/rpcconsole.cpp.i
 
 # target to preprocess a source file
 src/qt/rpcconsole.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/rpcconsole.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/rpcconsole.cpp.i
 .PHONY : src/qt/rpcconsole.cpp.i
 
 src/qt/rpcconsole.s: src/qt/rpcconsole.cpp.s
@@ -3144,7 +3144,7 @@ src/qt/rpcconsole.s: src/qt/rpcconsole.cpp.s
 
 # target to generate assembly for a file
 src/qt/rpcconsole.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/rpcconsole.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/rpcconsole.cpp.s
 .PHONY : src/qt/rpcconsole.cpp.s
 
 src/qt/sendcoinsdialog.o: src/qt/sendcoinsdialog.cpp.o
@@ -3153,7 +3153,7 @@ src/qt/sendcoinsdialog.o: src/qt/sendcoinsdialog.cpp.o
 
 # target to build an object file
 src/qt/sendcoinsdialog.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/sendcoinsdialog.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/sendcoinsdialog.cpp.o
 .PHONY : src/qt/sendcoinsdialog.cpp.o
 
 src/qt/sendcoinsdialog.i: src/qt/sendcoinsdialog.cpp.i
@@ -3162,7 +3162,7 @@ src/qt/sendcoinsdialog.i: src/qt/sendcoinsdialog.cpp.i
 
 # target to preprocess a source file
 src/qt/sendcoinsdialog.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/sendcoinsdialog.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/sendcoinsdialog.cpp.i
 .PHONY : src/qt/sendcoinsdialog.cpp.i
 
 src/qt/sendcoinsdialog.s: src/qt/sendcoinsdialog.cpp.s
@@ -3171,7 +3171,7 @@ src/qt/sendcoinsdialog.s: src/qt/sendcoinsdialog.cpp.s
 
 # target to generate assembly for a file
 src/qt/sendcoinsdialog.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/sendcoinsdialog.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/sendcoinsdialog.cpp.s
 .PHONY : src/qt/sendcoinsdialog.cpp.s
 
 src/qt/sendcoinsentry.o: src/qt/sendcoinsentry.cpp.o
@@ -3180,7 +3180,7 @@ src/qt/sendcoinsentry.o: src/qt/sendcoinsentry.cpp.o
 
 # target to build an object file
 src/qt/sendcoinsentry.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/sendcoinsentry.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/sendcoinsentry.cpp.o
 .PHONY : src/qt/sendcoinsentry.cpp.o
 
 src/qt/sendcoinsentry.i: src/qt/sendcoinsentry.cpp.i
@@ -3189,7 +3189,7 @@ src/qt/sendcoinsentry.i: src/qt/sendcoinsentry.cpp.i
 
 # target to preprocess a source file
 src/qt/sendcoinsentry.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/sendcoinsentry.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/sendcoinsentry.cpp.i
 .PHONY : src/qt/sendcoinsentry.cpp.i
 
 src/qt/sendcoinsentry.s: src/qt/sendcoinsentry.cpp.s
@@ -3198,7 +3198,7 @@ src/qt/sendcoinsentry.s: src/qt/sendcoinsentry.cpp.s
 
 # target to generate assembly for a file
 src/qt/sendcoinsentry.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/sendcoinsentry.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/sendcoinsentry.cpp.s
 .PHONY : src/qt/sendcoinsentry.cpp.s
 
 src/qt/signverifymessagedialog.o: src/qt/signverifymessagedialog.cpp.o
@@ -3207,7 +3207,7 @@ src/qt/signverifymessagedialog.o: src/qt/signverifymessagedialog.cpp.o
 
 # target to build an object file
 src/qt/signverifymessagedialog.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/signverifymessagedialog.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/signverifymessagedialog.cpp.o
 .PHONY : src/qt/signverifymessagedialog.cpp.o
 
 src/qt/signverifymessagedialog.i: src/qt/signverifymessagedialog.cpp.i
@@ -3216,7 +3216,7 @@ src/qt/signverifymessagedialog.i: src/qt/signverifymessagedialog.cpp.i
 
 # target to preprocess a source file
 src/qt/signverifymessagedialog.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/signverifymessagedialog.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/signverifymessagedialog.cpp.i
 .PHONY : src/qt/signverifymessagedialog.cpp.i
 
 src/qt/signverifymessagedialog.s: src/qt/signverifymessagedialog.cpp.s
@@ -3225,7 +3225,7 @@ src/qt/signverifymessagedialog.s: src/qt/signverifymessagedialog.cpp.s
 
 # target to generate assembly for a file
 src/qt/signverifymessagedialog.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/signverifymessagedialog.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/signverifymessagedialog.cpp.s
 .PHONY : src/qt/signverifymessagedialog.cpp.s
 
 src/qt/splashscreen.o: src/qt/splashscreen.cpp.o
@@ -3234,7 +3234,7 @@ src/qt/splashscreen.o: src/qt/splashscreen.cpp.o
 
 # target to build an object file
 src/qt/splashscreen.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/splashscreen.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/splashscreen.cpp.o
 .PHONY : src/qt/splashscreen.cpp.o
 
 src/qt/splashscreen.i: src/qt/splashscreen.cpp.i
@@ -3243,7 +3243,7 @@ src/qt/splashscreen.i: src/qt/splashscreen.cpp.i
 
 # target to preprocess a source file
 src/qt/splashscreen.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/splashscreen.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/splashscreen.cpp.i
 .PHONY : src/qt/splashscreen.cpp.i
 
 src/qt/splashscreen.s: src/qt/splashscreen.cpp.s
@@ -3252,7 +3252,7 @@ src/qt/splashscreen.s: src/qt/splashscreen.cpp.s
 
 # target to generate assembly for a file
 src/qt/splashscreen.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/splashscreen.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/splashscreen.cpp.s
 .PHONY : src/qt/splashscreen.cpp.s
 
 src/qt/test/test_main.o: src/qt/test/test_main.cpp.o
@@ -3261,7 +3261,7 @@ src/qt/test/test_main.o: src/qt/test/test_main.cpp.o
 
 # target to build an object file
 src/qt/test/test_main.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/test/test_main.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/test/test_main.cpp.o
 .PHONY : src/qt/test/test_main.cpp.o
 
 src/qt/test/test_main.i: src/qt/test/test_main.cpp.i
@@ -3270,7 +3270,7 @@ src/qt/test/test_main.i: src/qt/test/test_main.cpp.i
 
 # target to preprocess a source file
 src/qt/test/test_main.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/test/test_main.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/test/test_main.cpp.i
 .PHONY : src/qt/test/test_main.cpp.i
 
 src/qt/test/test_main.s: src/qt/test/test_main.cpp.s
@@ -3279,7 +3279,7 @@ src/qt/test/test_main.s: src/qt/test/test_main.cpp.s
 
 # target to generate assembly for a file
 src/qt/test/test_main.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/test/test_main.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/test/test_main.cpp.s
 .PHONY : src/qt/test/test_main.cpp.s
 
 src/qt/test/uritests.o: src/qt/test/uritests.cpp.o
@@ -3288,7 +3288,7 @@ src/qt/test/uritests.o: src/qt/test/uritests.cpp.o
 
 # target to build an object file
 src/qt/test/uritests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/test/uritests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/test/uritests.cpp.o
 .PHONY : src/qt/test/uritests.cpp.o
 
 src/qt/test/uritests.i: src/qt/test/uritests.cpp.i
@@ -3297,7 +3297,7 @@ src/qt/test/uritests.i: src/qt/test/uritests.cpp.i
 
 # target to preprocess a source file
 src/qt/test/uritests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/test/uritests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/test/uritests.cpp.i
 .PHONY : src/qt/test/uritests.cpp.i
 
 src/qt/test/uritests.s: src/qt/test/uritests.cpp.s
@@ -3306,7 +3306,7 @@ src/qt/test/uritests.s: src/qt/test/uritests.cpp.s
 
 # target to generate assembly for a file
 src/qt/test/uritests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/test/uritests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/test/uritests.cpp.s
 .PHONY : src/qt/test/uritests.cpp.s
 
 src/qt/transactiondesc.o: src/qt/transactiondesc.cpp.o
@@ -3315,7 +3315,7 @@ src/qt/transactiondesc.o: src/qt/transactiondesc.cpp.o
 
 # target to build an object file
 src/qt/transactiondesc.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactiondesc.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactiondesc.cpp.o
 .PHONY : src/qt/transactiondesc.cpp.o
 
 src/qt/transactiondesc.i: src/qt/transactiondesc.cpp.i
@@ -3324,7 +3324,7 @@ src/qt/transactiondesc.i: src/qt/transactiondesc.cpp.i
 
 # target to preprocess a source file
 src/qt/transactiondesc.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactiondesc.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactiondesc.cpp.i
 .PHONY : src/qt/transactiondesc.cpp.i
 
 src/qt/transactiondesc.s: src/qt/transactiondesc.cpp.s
@@ -3333,7 +3333,7 @@ src/qt/transactiondesc.s: src/qt/transactiondesc.cpp.s
 
 # target to generate assembly for a file
 src/qt/transactiondesc.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactiondesc.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactiondesc.cpp.s
 .PHONY : src/qt/transactiondesc.cpp.s
 
 src/qt/transactiondescdialog.o: src/qt/transactiondescdialog.cpp.o
@@ -3342,7 +3342,7 @@ src/qt/transactiondescdialog.o: src/qt/transactiondescdialog.cpp.o
 
 # target to build an object file
 src/qt/transactiondescdialog.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactiondescdialog.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactiondescdialog.cpp.o
 .PHONY : src/qt/transactiondescdialog.cpp.o
 
 src/qt/transactiondescdialog.i: src/qt/transactiondescdialog.cpp.i
@@ -3351,7 +3351,7 @@ src/qt/transactiondescdialog.i: src/qt/transactiondescdialog.cpp.i
 
 # target to preprocess a source file
 src/qt/transactiondescdialog.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactiondescdialog.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactiondescdialog.cpp.i
 .PHONY : src/qt/transactiondescdialog.cpp.i
 
 src/qt/transactiondescdialog.s: src/qt/transactiondescdialog.cpp.s
@@ -3360,7 +3360,7 @@ src/qt/transactiondescdialog.s: src/qt/transactiondescdialog.cpp.s
 
 # target to generate assembly for a file
 src/qt/transactiondescdialog.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactiondescdialog.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactiondescdialog.cpp.s
 .PHONY : src/qt/transactiondescdialog.cpp.s
 
 src/qt/transactionfilterproxy.o: src/qt/transactionfilterproxy.cpp.o
@@ -3369,7 +3369,7 @@ src/qt/transactionfilterproxy.o: src/qt/transactionfilterproxy.cpp.o
 
 # target to build an object file
 src/qt/transactionfilterproxy.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactionfilterproxy.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactionfilterproxy.cpp.o
 .PHONY : src/qt/transactionfilterproxy.cpp.o
 
 src/qt/transactionfilterproxy.i: src/qt/transactionfilterproxy.cpp.i
@@ -3378,7 +3378,7 @@ src/qt/transactionfilterproxy.i: src/qt/transactionfilterproxy.cpp.i
 
 # target to preprocess a source file
 src/qt/transactionfilterproxy.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactionfilterproxy.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactionfilterproxy.cpp.i
 .PHONY : src/qt/transactionfilterproxy.cpp.i
 
 src/qt/transactionfilterproxy.s: src/qt/transactionfilterproxy.cpp.s
@@ -3387,7 +3387,7 @@ src/qt/transactionfilterproxy.s: src/qt/transactionfilterproxy.cpp.s
 
 # target to generate assembly for a file
 src/qt/transactionfilterproxy.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactionfilterproxy.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactionfilterproxy.cpp.s
 .PHONY : src/qt/transactionfilterproxy.cpp.s
 
 src/qt/transactionrecord.o: src/qt/transactionrecord.cpp.o
@@ -3396,7 +3396,7 @@ src/qt/transactionrecord.o: src/qt/transactionrecord.cpp.o
 
 # target to build an object file
 src/qt/transactionrecord.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactionrecord.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactionrecord.cpp.o
 .PHONY : src/qt/transactionrecord.cpp.o
 
 src/qt/transactionrecord.i: src/qt/transactionrecord.cpp.i
@@ -3405,7 +3405,7 @@ src/qt/transactionrecord.i: src/qt/transactionrecord.cpp.i
 
 # target to preprocess a source file
 src/qt/transactionrecord.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactionrecord.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactionrecord.cpp.i
 .PHONY : src/qt/transactionrecord.cpp.i
 
 src/qt/transactionrecord.s: src/qt/transactionrecord.cpp.s
@@ -3414,7 +3414,7 @@ src/qt/transactionrecord.s: src/qt/transactionrecord.cpp.s
 
 # target to generate assembly for a file
 src/qt/transactionrecord.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactionrecord.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactionrecord.cpp.s
 .PHONY : src/qt/transactionrecord.cpp.s
 
 src/qt/transactiontablemodel.o: src/qt/transactiontablemodel.cpp.o
@@ -3423,7 +3423,7 @@ src/qt/transactiontablemodel.o: src/qt/transactiontablemodel.cpp.o
 
 # target to build an object file
 src/qt/transactiontablemodel.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactiontablemodel.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactiontablemodel.cpp.o
 .PHONY : src/qt/transactiontablemodel.cpp.o
 
 src/qt/transactiontablemodel.i: src/qt/transactiontablemodel.cpp.i
@@ -3432,7 +3432,7 @@ src/qt/transactiontablemodel.i: src/qt/transactiontablemodel.cpp.i
 
 # target to preprocess a source file
 src/qt/transactiontablemodel.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactiontablemodel.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactiontablemodel.cpp.i
 .PHONY : src/qt/transactiontablemodel.cpp.i
 
 src/qt/transactiontablemodel.s: src/qt/transactiontablemodel.cpp.s
@@ -3441,7 +3441,7 @@ src/qt/transactiontablemodel.s: src/qt/transactiontablemodel.cpp.s
 
 # target to generate assembly for a file
 src/qt/transactiontablemodel.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactiontablemodel.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactiontablemodel.cpp.s
 .PHONY : src/qt/transactiontablemodel.cpp.s
 
 src/qt/transactionview.o: src/qt/transactionview.cpp.o
@@ -3450,7 +3450,7 @@ src/qt/transactionview.o: src/qt/transactionview.cpp.o
 
 # target to build an object file
 src/qt/transactionview.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactionview.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactionview.cpp.o
 .PHONY : src/qt/transactionview.cpp.o
 
 src/qt/transactionview.i: src/qt/transactionview.cpp.i
@@ -3459,7 +3459,7 @@ src/qt/transactionview.i: src/qt/transactionview.cpp.i
 
 # target to preprocess a source file
 src/qt/transactionview.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactionview.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactionview.cpp.i
 .PHONY : src/qt/transactionview.cpp.i
 
 src/qt/transactionview.s: src/qt/transactionview.cpp.s
@@ -3468,7 +3468,7 @@ src/qt/transactionview.s: src/qt/transactionview.cpp.s
 
 # target to generate assembly for a file
 src/qt/transactionview.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/transactionview.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/transactionview.cpp.s
 .PHONY : src/qt/transactionview.cpp.s
 
 src/qt/walletframe.o: src/qt/walletframe.cpp.o
@@ -3477,7 +3477,7 @@ src/qt/walletframe.o: src/qt/walletframe.cpp.o
 
 # target to build an object file
 src/qt/walletframe.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletframe.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletframe.cpp.o
 .PHONY : src/qt/walletframe.cpp.o
 
 src/qt/walletframe.i: src/qt/walletframe.cpp.i
@@ -3486,7 +3486,7 @@ src/qt/walletframe.i: src/qt/walletframe.cpp.i
 
 # target to preprocess a source file
 src/qt/walletframe.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletframe.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletframe.cpp.i
 .PHONY : src/qt/walletframe.cpp.i
 
 src/qt/walletframe.s: src/qt/walletframe.cpp.s
@@ -3495,7 +3495,7 @@ src/qt/walletframe.s: src/qt/walletframe.cpp.s
 
 # target to generate assembly for a file
 src/qt/walletframe.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletframe.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletframe.cpp.s
 .PHONY : src/qt/walletframe.cpp.s
 
 src/qt/walletmodel.o: src/qt/walletmodel.cpp.o
@@ -3504,7 +3504,7 @@ src/qt/walletmodel.o: src/qt/walletmodel.cpp.o
 
 # target to build an object file
 src/qt/walletmodel.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletmodel.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletmodel.cpp.o
 .PHONY : src/qt/walletmodel.cpp.o
 
 src/qt/walletmodel.i: src/qt/walletmodel.cpp.i
@@ -3513,7 +3513,7 @@ src/qt/walletmodel.i: src/qt/walletmodel.cpp.i
 
 # target to preprocess a source file
 src/qt/walletmodel.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletmodel.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletmodel.cpp.i
 .PHONY : src/qt/walletmodel.cpp.i
 
 src/qt/walletmodel.s: src/qt/walletmodel.cpp.s
@@ -3522,7 +3522,7 @@ src/qt/walletmodel.s: src/qt/walletmodel.cpp.s
 
 # target to generate assembly for a file
 src/qt/walletmodel.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletmodel.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletmodel.cpp.s
 .PHONY : src/qt/walletmodel.cpp.s
 
 src/qt/walletstack.o: src/qt/walletstack.cpp.o
@@ -3531,7 +3531,7 @@ src/qt/walletstack.o: src/qt/walletstack.cpp.o
 
 # target to build an object file
 src/qt/walletstack.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletstack.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletstack.cpp.o
 .PHONY : src/qt/walletstack.cpp.o
 
 src/qt/walletstack.i: src/qt/walletstack.cpp.i
@@ -3540,7 +3540,7 @@ src/qt/walletstack.i: src/qt/walletstack.cpp.i
 
 # target to preprocess a source file
 src/qt/walletstack.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletstack.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletstack.cpp.i
 .PHONY : src/qt/walletstack.cpp.i
 
 src/qt/walletstack.s: src/qt/walletstack.cpp.s
@@ -3549,7 +3549,7 @@ src/qt/walletstack.s: src/qt/walletstack.cpp.s
 
 # target to generate assembly for a file
 src/qt/walletstack.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletstack.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletstack.cpp.s
 .PHONY : src/qt/walletstack.cpp.s
 
 src/qt/walletview.o: src/qt/walletview.cpp.o
@@ -3558,7 +3558,7 @@ src/qt/walletview.o: src/qt/walletview.cpp.o
 
 # target to build an object file
 src/qt/walletview.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletview.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletview.cpp.o
 .PHONY : src/qt/walletview.cpp.o
 
 src/qt/walletview.i: src/qt/walletview.cpp.i
@@ -3567,7 +3567,7 @@ src/qt/walletview.i: src/qt/walletview.cpp.i
 
 # target to preprocess a source file
 src/qt/walletview.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletview.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletview.cpp.i
 .PHONY : src/qt/walletview.cpp.i
 
 src/qt/walletview.s: src/qt/walletview.cpp.s
@@ -3576,7 +3576,7 @@ src/qt/walletview.s: src/qt/walletview.cpp.s
 
 # target to generate assembly for a file
 src/qt/walletview.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/qt/walletview.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/qt/walletview.cpp.s
 .PHONY : src/qt/walletview.cpp.s
 
 src/rpcblockchain.o: src/rpcblockchain.cpp.o
@@ -3585,7 +3585,7 @@ src/rpcblockchain.o: src/rpcblockchain.cpp.o
 
 # target to build an object file
 src/rpcblockchain.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcblockchain.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcblockchain.cpp.o
 .PHONY : src/rpcblockchain.cpp.o
 
 src/rpcblockchain.i: src/rpcblockchain.cpp.i
@@ -3594,7 +3594,7 @@ src/rpcblockchain.i: src/rpcblockchain.cpp.i
 
 # target to preprocess a source file
 src/rpcblockchain.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcblockchain.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcblockchain.cpp.i
 .PHONY : src/rpcblockchain.cpp.i
 
 src/rpcblockchain.s: src/rpcblockchain.cpp.s
@@ -3603,7 +3603,7 @@ src/rpcblockchain.s: src/rpcblockchain.cpp.s
 
 # target to generate assembly for a file
 src/rpcblockchain.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcblockchain.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcblockchain.cpp.s
 .PHONY : src/rpcblockchain.cpp.s
 
 src/rpcdump.o: src/rpcdump.cpp.o
@@ -3612,7 +3612,7 @@ src/rpcdump.o: src/rpcdump.cpp.o
 
 # target to build an object file
 src/rpcdump.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcdump.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcdump.cpp.o
 .PHONY : src/rpcdump.cpp.o
 
 src/rpcdump.i: src/rpcdump.cpp.i
@@ -3621,7 +3621,7 @@ src/rpcdump.i: src/rpcdump.cpp.i
 
 # target to preprocess a source file
 src/rpcdump.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcdump.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcdump.cpp.i
 .PHONY : src/rpcdump.cpp.i
 
 src/rpcdump.s: src/rpcdump.cpp.s
@@ -3630,7 +3630,7 @@ src/rpcdump.s: src/rpcdump.cpp.s
 
 # target to generate assembly for a file
 src/rpcdump.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcdump.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcdump.cpp.s
 .PHONY : src/rpcdump.cpp.s
 
 src/rpcmining.o: src/rpcmining.cpp.o
@@ -3639,7 +3639,7 @@ src/rpcmining.o: src/rpcmining.cpp.o
 
 # target to build an object file
 src/rpcmining.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcmining.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcmining.cpp.o
 .PHONY : src/rpcmining.cpp.o
 
 src/rpcmining.i: src/rpcmining.cpp.i
@@ -3648,7 +3648,7 @@ src/rpcmining.i: src/rpcmining.cpp.i
 
 # target to preprocess a source file
 src/rpcmining.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcmining.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcmining.cpp.i
 .PHONY : src/rpcmining.cpp.i
 
 src/rpcmining.s: src/rpcmining.cpp.s
@@ -3657,7 +3657,7 @@ src/rpcmining.s: src/rpcmining.cpp.s
 
 # target to generate assembly for a file
 src/rpcmining.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcmining.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcmining.cpp.s
 .PHONY : src/rpcmining.cpp.s
 
 src/rpcnet.o: src/rpcnet.cpp.o
@@ -3666,7 +3666,7 @@ src/rpcnet.o: src/rpcnet.cpp.o
 
 # target to build an object file
 src/rpcnet.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcnet.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcnet.cpp.o
 .PHONY : src/rpcnet.cpp.o
 
 src/rpcnet.i: src/rpcnet.cpp.i
@@ -3675,7 +3675,7 @@ src/rpcnet.i: src/rpcnet.cpp.i
 
 # target to preprocess a source file
 src/rpcnet.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcnet.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcnet.cpp.i
 .PHONY : src/rpcnet.cpp.i
 
 src/rpcnet.s: src/rpcnet.cpp.s
@@ -3684,7 +3684,7 @@ src/rpcnet.s: src/rpcnet.cpp.s
 
 # target to generate assembly for a file
 src/rpcnet.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcnet.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcnet.cpp.s
 .PHONY : src/rpcnet.cpp.s
 
 src/rpcrawtransaction.o: src/rpcrawtransaction.cpp.o
@@ -3693,7 +3693,7 @@ src/rpcrawtransaction.o: src/rpcrawtransaction.cpp.o
 
 # target to build an object file
 src/rpcrawtransaction.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcrawtransaction.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcrawtransaction.cpp.o
 .PHONY : src/rpcrawtransaction.cpp.o
 
 src/rpcrawtransaction.i: src/rpcrawtransaction.cpp.i
@@ -3702,7 +3702,7 @@ src/rpcrawtransaction.i: src/rpcrawtransaction.cpp.i
 
 # target to preprocess a source file
 src/rpcrawtransaction.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcrawtransaction.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcrawtransaction.cpp.i
 .PHONY : src/rpcrawtransaction.cpp.i
 
 src/rpcrawtransaction.s: src/rpcrawtransaction.cpp.s
@@ -3711,7 +3711,7 @@ src/rpcrawtransaction.s: src/rpcrawtransaction.cpp.s
 
 # target to generate assembly for a file
 src/rpcrawtransaction.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcrawtransaction.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcrawtransaction.cpp.s
 .PHONY : src/rpcrawtransaction.cpp.s
 
 src/rpcwallet.o: src/rpcwallet.cpp.o
@@ -3720,7 +3720,7 @@ src/rpcwallet.o: src/rpcwallet.cpp.o
 
 # target to build an object file
 src/rpcwallet.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcwallet.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcwallet.cpp.o
 .PHONY : src/rpcwallet.cpp.o
 
 src/rpcwallet.i: src/rpcwallet.cpp.i
@@ -3729,7 +3729,7 @@ src/rpcwallet.i: src/rpcwallet.cpp.i
 
 # target to preprocess a source file
 src/rpcwallet.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcwallet.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcwallet.cpp.i
 .PHONY : src/rpcwallet.cpp.i
 
 src/rpcwallet.s: src/rpcwallet.cpp.s
@@ -3738,7 +3738,7 @@ src/rpcwallet.s: src/rpcwallet.cpp.s
 
 # target to generate assembly for a file
 src/rpcwallet.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/rpcwallet.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/rpcwallet.cpp.s
 .PHONY : src/rpcwallet.cpp.s
 
 src/script.o: src/script.cpp.o
@@ -3747,7 +3747,7 @@ src/script.o: src/script.cpp.o
 
 # target to build an object file
 src/script.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/script.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/script.cpp.o
 .PHONY : src/script.cpp.o
 
 src/script.i: src/script.cpp.i
@@ -3756,7 +3756,7 @@ src/script.i: src/script.cpp.i
 
 # target to preprocess a source file
 src/script.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/script.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/script.cpp.i
 .PHONY : src/script.cpp.i
 
 src/script.s: src/script.cpp.s
@@ -3765,7 +3765,7 @@ src/script.s: src/script.cpp.s
 
 # target to generate assembly for a file
 src/script.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/script.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/script.cpp.s
 .PHONY : src/script.cpp.s
 
 src/sync.o: src/sync.cpp.o
@@ -3774,7 +3774,7 @@ src/sync.o: src/sync.cpp.o
 
 # target to build an object file
 src/sync.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/sync.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/sync.cpp.o
 .PHONY : src/sync.cpp.o
 
 src/sync.i: src/sync.cpp.i
@@ -3783,7 +3783,7 @@ src/sync.i: src/sync.cpp.i
 
 # target to preprocess a source file
 src/sync.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/sync.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/sync.cpp.i
 .PHONY : src/sync.cpp.i
 
 src/sync.s: src/sync.cpp.s
@@ -3792,7 +3792,7 @@ src/sync.s: src/sync.cpp.s
 
 # target to generate assembly for a file
 src/sync.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/sync.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/sync.cpp.s
 .PHONY : src/sync.cpp.s
 
 src/test/Checkpoints_tests.o: src/test/Checkpoints_tests.cpp.o
@@ -3801,7 +3801,7 @@ src/test/Checkpoints_tests.o: src/test/Checkpoints_tests.cpp.o
 
 # target to build an object file
 src/test/Checkpoints_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/Checkpoints_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/Checkpoints_tests.cpp.o
 .PHONY : src/test/Checkpoints_tests.cpp.o
 
 src/test/Checkpoints_tests.i: src/test/Checkpoints_tests.cpp.i
@@ -3810,7 +3810,7 @@ src/test/Checkpoints_tests.i: src/test/Checkpoints_tests.cpp.i
 
 # target to preprocess a source file
 src/test/Checkpoints_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/Checkpoints_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/Checkpoints_tests.cpp.i
 .PHONY : src/test/Checkpoints_tests.cpp.i
 
 src/test/Checkpoints_tests.s: src/test/Checkpoints_tests.cpp.s
@@ -3819,7 +3819,7 @@ src/test/Checkpoints_tests.s: src/test/Checkpoints_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/Checkpoints_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/Checkpoints_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/Checkpoints_tests.cpp.s
 .PHONY : src/test/Checkpoints_tests.cpp.s
 
 src/test/DoS_tests.o: src/test/DoS_tests.cpp.o
@@ -3828,7 +3828,7 @@ src/test/DoS_tests.o: src/test/DoS_tests.cpp.o
 
 # target to build an object file
 src/test/DoS_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/DoS_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/DoS_tests.cpp.o
 .PHONY : src/test/DoS_tests.cpp.o
 
 src/test/DoS_tests.i: src/test/DoS_tests.cpp.i
@@ -3837,7 +3837,7 @@ src/test/DoS_tests.i: src/test/DoS_tests.cpp.i
 
 # target to preprocess a source file
 src/test/DoS_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/DoS_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/DoS_tests.cpp.i
 .PHONY : src/test/DoS_tests.cpp.i
 
 src/test/DoS_tests.s: src/test/DoS_tests.cpp.s
@@ -3846,7 +3846,7 @@ src/test/DoS_tests.s: src/test/DoS_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/DoS_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/DoS_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/DoS_tests.cpp.s
 .PHONY : src/test/DoS_tests.cpp.s
 
 src/test/accounting_tests.o: src/test/accounting_tests.cpp.o
@@ -3855,7 +3855,7 @@ src/test/accounting_tests.o: src/test/accounting_tests.cpp.o
 
 # target to build an object file
 src/test/accounting_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/accounting_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/accounting_tests.cpp.o
 .PHONY : src/test/accounting_tests.cpp.o
 
 src/test/accounting_tests.i: src/test/accounting_tests.cpp.i
@@ -3864,7 +3864,7 @@ src/test/accounting_tests.i: src/test/accounting_tests.cpp.i
 
 # target to preprocess a source file
 src/test/accounting_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/accounting_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/accounting_tests.cpp.i
 .PHONY : src/test/accounting_tests.cpp.i
 
 src/test/accounting_tests.s: src/test/accounting_tests.cpp.s
@@ -3873,7 +3873,7 @@ src/test/accounting_tests.s: src/test/accounting_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/accounting_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/accounting_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/accounting_tests.cpp.s
 .PHONY : src/test/accounting_tests.cpp.s
 
 src/test/alert_tests.o: src/test/alert_tests.cpp.o
@@ -3882,7 +3882,7 @@ src/test/alert_tests.o: src/test/alert_tests.cpp.o
 
 # target to build an object file
 src/test/alert_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/alert_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/alert_tests.cpp.o
 .PHONY : src/test/alert_tests.cpp.o
 
 src/test/alert_tests.i: src/test/alert_tests.cpp.i
@@ -3891,7 +3891,7 @@ src/test/alert_tests.i: src/test/alert_tests.cpp.i
 
 # target to preprocess a source file
 src/test/alert_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/alert_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/alert_tests.cpp.i
 .PHONY : src/test/alert_tests.cpp.i
 
 src/test/alert_tests.s: src/test/alert_tests.cpp.s
@@ -3900,7 +3900,7 @@ src/test/alert_tests.s: src/test/alert_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/alert_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/alert_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/alert_tests.cpp.s
 .PHONY : src/test/alert_tests.cpp.s
 
 src/test/allocator_tests.o: src/test/allocator_tests.cpp.o
@@ -3909,7 +3909,7 @@ src/test/allocator_tests.o: src/test/allocator_tests.cpp.o
 
 # target to build an object file
 src/test/allocator_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/allocator_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/allocator_tests.cpp.o
 .PHONY : src/test/allocator_tests.cpp.o
 
 src/test/allocator_tests.i: src/test/allocator_tests.cpp.i
@@ -3918,7 +3918,7 @@ src/test/allocator_tests.i: src/test/allocator_tests.cpp.i
 
 # target to preprocess a source file
 src/test/allocator_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/allocator_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/allocator_tests.cpp.i
 .PHONY : src/test/allocator_tests.cpp.i
 
 src/test/allocator_tests.s: src/test/allocator_tests.cpp.s
@@ -3927,7 +3927,7 @@ src/test/allocator_tests.s: src/test/allocator_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/allocator_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/allocator_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/allocator_tests.cpp.s
 .PHONY : src/test/allocator_tests.cpp.s
 
 src/test/base32_tests.o: src/test/base32_tests.cpp.o
@@ -3936,7 +3936,7 @@ src/test/base32_tests.o: src/test/base32_tests.cpp.o
 
 # target to build an object file
 src/test/base32_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/base32_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/base32_tests.cpp.o
 .PHONY : src/test/base32_tests.cpp.o
 
 src/test/base32_tests.i: src/test/base32_tests.cpp.i
@@ -3945,7 +3945,7 @@ src/test/base32_tests.i: src/test/base32_tests.cpp.i
 
 # target to preprocess a source file
 src/test/base32_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/base32_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/base32_tests.cpp.i
 .PHONY : src/test/base32_tests.cpp.i
 
 src/test/base32_tests.s: src/test/base32_tests.cpp.s
@@ -3954,7 +3954,7 @@ src/test/base32_tests.s: src/test/base32_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/base32_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/base32_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/base32_tests.cpp.s
 .PHONY : src/test/base32_tests.cpp.s
 
 src/test/base58_tests.o: src/test/base58_tests.cpp.o
@@ -3963,7 +3963,7 @@ src/test/base58_tests.o: src/test/base58_tests.cpp.o
 
 # target to build an object file
 src/test/base58_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/base58_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/base58_tests.cpp.o
 .PHONY : src/test/base58_tests.cpp.o
 
 src/test/base58_tests.i: src/test/base58_tests.cpp.i
@@ -3972,7 +3972,7 @@ src/test/base58_tests.i: src/test/base58_tests.cpp.i
 
 # target to preprocess a source file
 src/test/base58_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/base58_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/base58_tests.cpp.i
 .PHONY : src/test/base58_tests.cpp.i
 
 src/test/base58_tests.s: src/test/base58_tests.cpp.s
@@ -3981,7 +3981,7 @@ src/test/base58_tests.s: src/test/base58_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/base58_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/base58_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/base58_tests.cpp.s
 .PHONY : src/test/base58_tests.cpp.s
 
 src/test/base64_tests.o: src/test/base64_tests.cpp.o
@@ -3990,7 +3990,7 @@ src/test/base64_tests.o: src/test/base64_tests.cpp.o
 
 # target to build an object file
 src/test/base64_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/base64_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/base64_tests.cpp.o
 .PHONY : src/test/base64_tests.cpp.o
 
 src/test/base64_tests.i: src/test/base64_tests.cpp.i
@@ -3999,7 +3999,7 @@ src/test/base64_tests.i: src/test/base64_tests.cpp.i
 
 # target to preprocess a source file
 src/test/base64_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/base64_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/base64_tests.cpp.i
 .PHONY : src/test/base64_tests.cpp.i
 
 src/test/base64_tests.s: src/test/base64_tests.cpp.s
@@ -4008,7 +4008,7 @@ src/test/base64_tests.s: src/test/base64_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/base64_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/base64_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/base64_tests.cpp.s
 .PHONY : src/test/base64_tests.cpp.s
 
 src/test/bignum_tests.o: src/test/bignum_tests.cpp.o
@@ -4017,7 +4017,7 @@ src/test/bignum_tests.o: src/test/bignum_tests.cpp.o
 
 # target to build an object file
 src/test/bignum_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/bignum_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/bignum_tests.cpp.o
 .PHONY : src/test/bignum_tests.cpp.o
 
 src/test/bignum_tests.i: src/test/bignum_tests.cpp.i
@@ -4026,7 +4026,7 @@ src/test/bignum_tests.i: src/test/bignum_tests.cpp.i
 
 # target to preprocess a source file
 src/test/bignum_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/bignum_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/bignum_tests.cpp.i
 .PHONY : src/test/bignum_tests.cpp.i
 
 src/test/bignum_tests.s: src/test/bignum_tests.cpp.s
@@ -4035,7 +4035,7 @@ src/test/bignum_tests.s: src/test/bignum_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/bignum_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/bignum_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/bignum_tests.cpp.s
 .PHONY : src/test/bignum_tests.cpp.s
 
 src/test/bloom_tests.o: src/test/bloom_tests.cpp.o
@@ -4044,7 +4044,7 @@ src/test/bloom_tests.o: src/test/bloom_tests.cpp.o
 
 # target to build an object file
 src/test/bloom_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/bloom_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/bloom_tests.cpp.o
 .PHONY : src/test/bloom_tests.cpp.o
 
 src/test/bloom_tests.i: src/test/bloom_tests.cpp.i
@@ -4053,7 +4053,7 @@ src/test/bloom_tests.i: src/test/bloom_tests.cpp.i
 
 # target to preprocess a source file
 src/test/bloom_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/bloom_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/bloom_tests.cpp.i
 .PHONY : src/test/bloom_tests.cpp.i
 
 src/test/bloom_tests.s: src/test/bloom_tests.cpp.s
@@ -4062,7 +4062,7 @@ src/test/bloom_tests.s: src/test/bloom_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/bloom_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/bloom_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/bloom_tests.cpp.s
 .PHONY : src/test/bloom_tests.cpp.s
 
 src/test/canonical_tests.o: src/test/canonical_tests.cpp.o
@@ -4071,7 +4071,7 @@ src/test/canonical_tests.o: src/test/canonical_tests.cpp.o
 
 # target to build an object file
 src/test/canonical_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/canonical_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/canonical_tests.cpp.o
 .PHONY : src/test/canonical_tests.cpp.o
 
 src/test/canonical_tests.i: src/test/canonical_tests.cpp.i
@@ -4080,7 +4080,7 @@ src/test/canonical_tests.i: src/test/canonical_tests.cpp.i
 
 # target to preprocess a source file
 src/test/canonical_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/canonical_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/canonical_tests.cpp.i
 .PHONY : src/test/canonical_tests.cpp.i
 
 src/test/canonical_tests.s: src/test/canonical_tests.cpp.s
@@ -4089,7 +4089,7 @@ src/test/canonical_tests.s: src/test/canonical_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/canonical_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/canonical_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/canonical_tests.cpp.s
 .PHONY : src/test/canonical_tests.cpp.s
 
 src/test/checkblock_tests.o: src/test/checkblock_tests.cpp.o
@@ -4098,7 +4098,7 @@ src/test/checkblock_tests.o: src/test/checkblock_tests.cpp.o
 
 # target to build an object file
 src/test/checkblock_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/checkblock_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/checkblock_tests.cpp.o
 .PHONY : src/test/checkblock_tests.cpp.o
 
 src/test/checkblock_tests.i: src/test/checkblock_tests.cpp.i
@@ -4107,7 +4107,7 @@ src/test/checkblock_tests.i: src/test/checkblock_tests.cpp.i
 
 # target to preprocess a source file
 src/test/checkblock_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/checkblock_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/checkblock_tests.cpp.i
 .PHONY : src/test/checkblock_tests.cpp.i
 
 src/test/checkblock_tests.s: src/test/checkblock_tests.cpp.s
@@ -4116,7 +4116,7 @@ src/test/checkblock_tests.s: src/test/checkblock_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/checkblock_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/checkblock_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/checkblock_tests.cpp.s
 .PHONY : src/test/checkblock_tests.cpp.s
 
 src/test/compress_tests.o: src/test/compress_tests.cpp.o
@@ -4125,7 +4125,7 @@ src/test/compress_tests.o: src/test/compress_tests.cpp.o
 
 # target to build an object file
 src/test/compress_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/compress_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/compress_tests.cpp.o
 .PHONY : src/test/compress_tests.cpp.o
 
 src/test/compress_tests.i: src/test/compress_tests.cpp.i
@@ -4134,7 +4134,7 @@ src/test/compress_tests.i: src/test/compress_tests.cpp.i
 
 # target to preprocess a source file
 src/test/compress_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/compress_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/compress_tests.cpp.i
 .PHONY : src/test/compress_tests.cpp.i
 
 src/test/compress_tests.s: src/test/compress_tests.cpp.s
@@ -4143,7 +4143,7 @@ src/test/compress_tests.s: src/test/compress_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/compress_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/compress_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/compress_tests.cpp.s
 .PHONY : src/test/compress_tests.cpp.s
 
 src/test/getarg_tests.o: src/test/getarg_tests.cpp.o
@@ -4152,7 +4152,7 @@ src/test/getarg_tests.o: src/test/getarg_tests.cpp.o
 
 # target to build an object file
 src/test/getarg_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/getarg_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/getarg_tests.cpp.o
 .PHONY : src/test/getarg_tests.cpp.o
 
 src/test/getarg_tests.i: src/test/getarg_tests.cpp.i
@@ -4161,7 +4161,7 @@ src/test/getarg_tests.i: src/test/getarg_tests.cpp.i
 
 # target to preprocess a source file
 src/test/getarg_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/getarg_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/getarg_tests.cpp.i
 .PHONY : src/test/getarg_tests.cpp.i
 
 src/test/getarg_tests.s: src/test/getarg_tests.cpp.s
@@ -4170,7 +4170,7 @@ src/test/getarg_tests.s: src/test/getarg_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/getarg_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/getarg_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/getarg_tests.cpp.s
 .PHONY : src/test/getarg_tests.cpp.s
 
 src/test/key_tests.o: src/test/key_tests.cpp.o
@@ -4179,7 +4179,7 @@ src/test/key_tests.o: src/test/key_tests.cpp.o
 
 # target to build an object file
 src/test/key_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/key_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/key_tests.cpp.o
 .PHONY : src/test/key_tests.cpp.o
 
 src/test/key_tests.i: src/test/key_tests.cpp.i
@@ -4188,7 +4188,7 @@ src/test/key_tests.i: src/test/key_tests.cpp.i
 
 # target to preprocess a source file
 src/test/key_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/key_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/key_tests.cpp.i
 .PHONY : src/test/key_tests.cpp.i
 
 src/test/key_tests.s: src/test/key_tests.cpp.s
@@ -4197,7 +4197,7 @@ src/test/key_tests.s: src/test/key_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/key_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/key_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/key_tests.cpp.s
 .PHONY : src/test/key_tests.cpp.s
 
 src/test/miner_tests.o: src/test/miner_tests.cpp.o
@@ -4206,7 +4206,7 @@ src/test/miner_tests.o: src/test/miner_tests.cpp.o
 
 # target to build an object file
 src/test/miner_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/miner_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/miner_tests.cpp.o
 .PHONY : src/test/miner_tests.cpp.o
 
 src/test/miner_tests.i: src/test/miner_tests.cpp.i
@@ -4215,7 +4215,7 @@ src/test/miner_tests.i: src/test/miner_tests.cpp.i
 
 # target to preprocess a source file
 src/test/miner_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/miner_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/miner_tests.cpp.i
 .PHONY : src/test/miner_tests.cpp.i
 
 src/test/miner_tests.s: src/test/miner_tests.cpp.s
@@ -4224,7 +4224,7 @@ src/test/miner_tests.s: src/test/miner_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/miner_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/miner_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/miner_tests.cpp.s
 .PHONY : src/test/miner_tests.cpp.s
 
 src/test/mruset_tests.o: src/test/mruset_tests.cpp.o
@@ -4233,7 +4233,7 @@ src/test/mruset_tests.o: src/test/mruset_tests.cpp.o
 
 # target to build an object file
 src/test/mruset_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/mruset_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/mruset_tests.cpp.o
 .PHONY : src/test/mruset_tests.cpp.o
 
 src/test/mruset_tests.i: src/test/mruset_tests.cpp.i
@@ -4242,7 +4242,7 @@ src/test/mruset_tests.i: src/test/mruset_tests.cpp.i
 
 # target to preprocess a source file
 src/test/mruset_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/mruset_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/mruset_tests.cpp.i
 .PHONY : src/test/mruset_tests.cpp.i
 
 src/test/mruset_tests.s: src/test/mruset_tests.cpp.s
@@ -4251,7 +4251,7 @@ src/test/mruset_tests.s: src/test/mruset_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/mruset_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/mruset_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/mruset_tests.cpp.s
 .PHONY : src/test/mruset_tests.cpp.s
 
 src/test/multisig_tests.o: src/test/multisig_tests.cpp.o
@@ -4260,7 +4260,7 @@ src/test/multisig_tests.o: src/test/multisig_tests.cpp.o
 
 # target to build an object file
 src/test/multisig_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/multisig_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/multisig_tests.cpp.o
 .PHONY : src/test/multisig_tests.cpp.o
 
 src/test/multisig_tests.i: src/test/multisig_tests.cpp.i
@@ -4269,7 +4269,7 @@ src/test/multisig_tests.i: src/test/multisig_tests.cpp.i
 
 # target to preprocess a source file
 src/test/multisig_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/multisig_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/multisig_tests.cpp.i
 .PHONY : src/test/multisig_tests.cpp.i
 
 src/test/multisig_tests.s: src/test/multisig_tests.cpp.s
@@ -4278,7 +4278,7 @@ src/test/multisig_tests.s: src/test/multisig_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/multisig_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/multisig_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/multisig_tests.cpp.s
 .PHONY : src/test/multisig_tests.cpp.s
 
 src/test/netbase_tests.o: src/test/netbase_tests.cpp.o
@@ -4287,7 +4287,7 @@ src/test/netbase_tests.o: src/test/netbase_tests.cpp.o
 
 # target to build an object file
 src/test/netbase_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/netbase_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/netbase_tests.cpp.o
 .PHONY : src/test/netbase_tests.cpp.o
 
 src/test/netbase_tests.i: src/test/netbase_tests.cpp.i
@@ -4296,7 +4296,7 @@ src/test/netbase_tests.i: src/test/netbase_tests.cpp.i
 
 # target to preprocess a source file
 src/test/netbase_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/netbase_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/netbase_tests.cpp.i
 .PHONY : src/test/netbase_tests.cpp.i
 
 src/test/netbase_tests.s: src/test/netbase_tests.cpp.s
@@ -4305,7 +4305,7 @@ src/test/netbase_tests.s: src/test/netbase_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/netbase_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/netbase_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/netbase_tests.cpp.s
 .PHONY : src/test/netbase_tests.cpp.s
 
 src/test/pmt_tests.o: src/test/pmt_tests.cpp.o
@@ -4314,7 +4314,7 @@ src/test/pmt_tests.o: src/test/pmt_tests.cpp.o
 
 # target to build an object file
 src/test/pmt_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/pmt_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/pmt_tests.cpp.o
 .PHONY : src/test/pmt_tests.cpp.o
 
 src/test/pmt_tests.i: src/test/pmt_tests.cpp.i
@@ -4323,7 +4323,7 @@ src/test/pmt_tests.i: src/test/pmt_tests.cpp.i
 
 # target to preprocess a source file
 src/test/pmt_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/pmt_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/pmt_tests.cpp.i
 .PHONY : src/test/pmt_tests.cpp.i
 
 src/test/pmt_tests.s: src/test/pmt_tests.cpp.s
@@ -4332,7 +4332,7 @@ src/test/pmt_tests.s: src/test/pmt_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/pmt_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/pmt_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/pmt_tests.cpp.s
 .PHONY : src/test/pmt_tests.cpp.s
 
 src/test/rpc_tests.o: src/test/rpc_tests.cpp.o
@@ -4341,7 +4341,7 @@ src/test/rpc_tests.o: src/test/rpc_tests.cpp.o
 
 # target to build an object file
 src/test/rpc_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/rpc_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/rpc_tests.cpp.o
 .PHONY : src/test/rpc_tests.cpp.o
 
 src/test/rpc_tests.i: src/test/rpc_tests.cpp.i
@@ -4350,7 +4350,7 @@ src/test/rpc_tests.i: src/test/rpc_tests.cpp.i
 
 # target to preprocess a source file
 src/test/rpc_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/rpc_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/rpc_tests.cpp.i
 .PHONY : src/test/rpc_tests.cpp.i
 
 src/test/rpc_tests.s: src/test/rpc_tests.cpp.s
@@ -4359,7 +4359,7 @@ src/test/rpc_tests.s: src/test/rpc_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/rpc_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/rpc_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/rpc_tests.cpp.s
 .PHONY : src/test/rpc_tests.cpp.s
 
 src/test/script_P2SH_tests.o: src/test/script_P2SH_tests.cpp.o
@@ -4368,7 +4368,7 @@ src/test/script_P2SH_tests.o: src/test/script_P2SH_tests.cpp.o
 
 # target to build an object file
 src/test/script_P2SH_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/script_P2SH_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/script_P2SH_tests.cpp.o
 .PHONY : src/test/script_P2SH_tests.cpp.o
 
 src/test/script_P2SH_tests.i: src/test/script_P2SH_tests.cpp.i
@@ -4377,7 +4377,7 @@ src/test/script_P2SH_tests.i: src/test/script_P2SH_tests.cpp.i
 
 # target to preprocess a source file
 src/test/script_P2SH_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/script_P2SH_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/script_P2SH_tests.cpp.i
 .PHONY : src/test/script_P2SH_tests.cpp.i
 
 src/test/script_P2SH_tests.s: src/test/script_P2SH_tests.cpp.s
@@ -4386,7 +4386,7 @@ src/test/script_P2SH_tests.s: src/test/script_P2SH_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/script_P2SH_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/script_P2SH_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/script_P2SH_tests.cpp.s
 .PHONY : src/test/script_P2SH_tests.cpp.s
 
 src/test/script_tests.o: src/test/script_tests.cpp.o
@@ -4395,7 +4395,7 @@ src/test/script_tests.o: src/test/script_tests.cpp.o
 
 # target to build an object file
 src/test/script_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/script_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/script_tests.cpp.o
 .PHONY : src/test/script_tests.cpp.o
 
 src/test/script_tests.i: src/test/script_tests.cpp.i
@@ -4404,7 +4404,7 @@ src/test/script_tests.i: src/test/script_tests.cpp.i
 
 # target to preprocess a source file
 src/test/script_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/script_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/script_tests.cpp.i
 .PHONY : src/test/script_tests.cpp.i
 
 src/test/script_tests.s: src/test/script_tests.cpp.s
@@ -4413,7 +4413,7 @@ src/test/script_tests.s: src/test/script_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/script_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/script_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/script_tests.cpp.s
 .PHONY : src/test/script_tests.cpp.s
 
 src/test/serialize_tests.o: src/test/serialize_tests.cpp.o
@@ -4422,7 +4422,7 @@ src/test/serialize_tests.o: src/test/serialize_tests.cpp.o
 
 # target to build an object file
 src/test/serialize_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/serialize_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/serialize_tests.cpp.o
 .PHONY : src/test/serialize_tests.cpp.o
 
 src/test/serialize_tests.i: src/test/serialize_tests.cpp.i
@@ -4431,7 +4431,7 @@ src/test/serialize_tests.i: src/test/serialize_tests.cpp.i
 
 # target to preprocess a source file
 src/test/serialize_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/serialize_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/serialize_tests.cpp.i
 .PHONY : src/test/serialize_tests.cpp.i
 
 src/test/serialize_tests.s: src/test/serialize_tests.cpp.s
@@ -4440,7 +4440,7 @@ src/test/serialize_tests.s: src/test/serialize_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/serialize_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/serialize_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/serialize_tests.cpp.s
 .PHONY : src/test/serialize_tests.cpp.s
 
 src/test/sigopcount_tests.o: src/test/sigopcount_tests.cpp.o
@@ -4449,7 +4449,7 @@ src/test/sigopcount_tests.o: src/test/sigopcount_tests.cpp.o
 
 # target to build an object file
 src/test/sigopcount_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/sigopcount_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/sigopcount_tests.cpp.o
 .PHONY : src/test/sigopcount_tests.cpp.o
 
 src/test/sigopcount_tests.i: src/test/sigopcount_tests.cpp.i
@@ -4458,7 +4458,7 @@ src/test/sigopcount_tests.i: src/test/sigopcount_tests.cpp.i
 
 # target to preprocess a source file
 src/test/sigopcount_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/sigopcount_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/sigopcount_tests.cpp.i
 .PHONY : src/test/sigopcount_tests.cpp.i
 
 src/test/sigopcount_tests.s: src/test/sigopcount_tests.cpp.s
@@ -4467,7 +4467,7 @@ src/test/sigopcount_tests.s: src/test/sigopcount_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/sigopcount_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/sigopcount_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/sigopcount_tests.cpp.s
 .PHONY : src/test/sigopcount_tests.cpp.s
 
 src/test/test_bitcoin.o: src/test/test_bitcoin.cpp.o
@@ -4476,7 +4476,7 @@ src/test/test_bitcoin.o: src/test/test_bitcoin.cpp.o
 
 # target to build an object file
 src/test/test_bitcoin.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/test_bitcoin.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/test_bitcoin.cpp.o
 .PHONY : src/test/test_bitcoin.cpp.o
 
 src/test/test_bitcoin.i: src/test/test_bitcoin.cpp.i
@@ -4485,7 +4485,7 @@ src/test/test_bitcoin.i: src/test/test_bitcoin.cpp.i
 
 # target to preprocess a source file
 src/test/test_bitcoin.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/test_bitcoin.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/test_bitcoin.cpp.i
 .PHONY : src/test/test_bitcoin.cpp.i
 
 src/test/test_bitcoin.s: src/test/test_bitcoin.cpp.s
@@ -4494,7 +4494,7 @@ src/test/test_bitcoin.s: src/test/test_bitcoin.cpp.s
 
 # target to generate assembly for a file
 src/test/test_bitcoin.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/test_bitcoin.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/test_bitcoin.cpp.s
 .PHONY : src/test/test_bitcoin.cpp.s
 
 src/test/transaction_tests.o: src/test/transaction_tests.cpp.o
@@ -4503,7 +4503,7 @@ src/test/transaction_tests.o: src/test/transaction_tests.cpp.o
 
 # target to build an object file
 src/test/transaction_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/transaction_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/transaction_tests.cpp.o
 .PHONY : src/test/transaction_tests.cpp.o
 
 src/test/transaction_tests.i: src/test/transaction_tests.cpp.i
@@ -4512,7 +4512,7 @@ src/test/transaction_tests.i: src/test/transaction_tests.cpp.i
 
 # target to preprocess a source file
 src/test/transaction_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/transaction_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/transaction_tests.cpp.i
 .PHONY : src/test/transaction_tests.cpp.i
 
 src/test/transaction_tests.s: src/test/transaction_tests.cpp.s
@@ -4521,7 +4521,7 @@ src/test/transaction_tests.s: src/test/transaction_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/transaction_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/transaction_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/transaction_tests.cpp.s
 .PHONY : src/test/transaction_tests.cpp.s
 
 src/test/uint160_tests.o: src/test/uint160_tests.cpp.o
@@ -4530,7 +4530,7 @@ src/test/uint160_tests.o: src/test/uint160_tests.cpp.o
 
 # target to build an object file
 src/test/uint160_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/uint160_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/uint160_tests.cpp.o
 .PHONY : src/test/uint160_tests.cpp.o
 
 src/test/uint160_tests.i: src/test/uint160_tests.cpp.i
@@ -4539,7 +4539,7 @@ src/test/uint160_tests.i: src/test/uint160_tests.cpp.i
 
 # target to preprocess a source file
 src/test/uint160_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/uint160_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/uint160_tests.cpp.i
 .PHONY : src/test/uint160_tests.cpp.i
 
 src/test/uint160_tests.s: src/test/uint160_tests.cpp.s
@@ -4548,7 +4548,7 @@ src/test/uint160_tests.s: src/test/uint160_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/uint160_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/uint160_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/uint160_tests.cpp.s
 .PHONY : src/test/uint160_tests.cpp.s
 
 src/test/uint256_tests.o: src/test/uint256_tests.cpp.o
@@ -4557,7 +4557,7 @@ src/test/uint256_tests.o: src/test/uint256_tests.cpp.o
 
 # target to build an object file
 src/test/uint256_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/uint256_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/uint256_tests.cpp.o
 .PHONY : src/test/uint256_tests.cpp.o
 
 src/test/uint256_tests.i: src/test/uint256_tests.cpp.i
@@ -4566,7 +4566,7 @@ src/test/uint256_tests.i: src/test/uint256_tests.cpp.i
 
 # target to preprocess a source file
 src/test/uint256_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/uint256_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/uint256_tests.cpp.i
 .PHONY : src/test/uint256_tests.cpp.i
 
 src/test/uint256_tests.s: src/test/uint256_tests.cpp.s
@@ -4575,7 +4575,7 @@ src/test/uint256_tests.s: src/test/uint256_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/uint256_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/uint256_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/uint256_tests.cpp.s
 .PHONY : src/test/uint256_tests.cpp.s
 
 src/test/util_tests.o: src/test/util_tests.cpp.o
@@ -4584,7 +4584,7 @@ src/test/util_tests.o: src/test/util_tests.cpp.o
 
 # target to build an object file
 src/test/util_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/util_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/util_tests.cpp.o
 .PHONY : src/test/util_tests.cpp.o
 
 src/test/util_tests.i: src/test/util_tests.cpp.i
@@ -4593,7 +4593,7 @@ src/test/util_tests.i: src/test/util_tests.cpp.i
 
 # target to preprocess a source file
 src/test/util_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/util_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/util_tests.cpp.i
 .PHONY : src/test/util_tests.cpp.i
 
 src/test/util_tests.s: src/test/util_tests.cpp.s
@@ -4602,7 +4602,7 @@ src/test/util_tests.s: src/test/util_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/util_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/util_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/util_tests.cpp.s
 .PHONY : src/test/util_tests.cpp.s
 
 src/test/wallet_tests.o: src/test/wallet_tests.cpp.o
@@ -4611,7 +4611,7 @@ src/test/wallet_tests.o: src/test/wallet_tests.cpp.o
 
 # target to build an object file
 src/test/wallet_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/wallet_tests.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/wallet_tests.cpp.o
 .PHONY : src/test/wallet_tests.cpp.o
 
 src/test/wallet_tests.i: src/test/wallet_tests.cpp.i
@@ -4620,7 +4620,7 @@ src/test/wallet_tests.i: src/test/wallet_tests.cpp.i
 
 # target to preprocess a source file
 src/test/wallet_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/wallet_tests.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/wallet_tests.cpp.i
 .PHONY : src/test/wallet_tests.cpp.i
 
 src/test/wallet_tests.s: src/test/wallet_tests.cpp.s
@@ -4629,7 +4629,7 @@ src/test/wallet_tests.s: src/test/wallet_tests.cpp.s
 
 # target to generate assembly for a file
 src/test/wallet_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/test/wallet_tests.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/test/wallet_tests.cpp.s
 .PHONY : src/test/wallet_tests.cpp.s
 
 src/txdb.o: src/txdb.cpp.o
@@ -4638,7 +4638,7 @@ src/txdb.o: src/txdb.cpp.o
 
 # target to build an object file
 src/txdb.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/txdb.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/txdb.cpp.o
 .PHONY : src/txdb.cpp.o
 
 src/txdb.i: src/txdb.cpp.i
@@ -4647,7 +4647,7 @@ src/txdb.i: src/txdb.cpp.i
 
 # target to preprocess a source file
 src/txdb.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/txdb.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/txdb.cpp.i
 .PHONY : src/txdb.cpp.i
 
 src/txdb.s: src/txdb.cpp.s
@@ -4656,7 +4656,7 @@ src/txdb.s: src/txdb.cpp.s
 
 # target to generate assembly for a file
 src/txdb.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/txdb.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/txdb.cpp.s
 .PHONY : src/txdb.cpp.s
 
 src/util.o: src/util.cpp.o
@@ -4665,7 +4665,7 @@ src/util.o: src/util.cpp.o
 
 # target to build an object file
 src/util.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/util.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/util.cpp.o
 .PHONY : src/util.cpp.o
 
 src/util.i: src/util.cpp.i
@@ -4674,7 +4674,7 @@ src/util.i: src/util.cpp.i
 
 # target to preprocess a source file
 src/util.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/util.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/util.cpp.i
 .PHONY : src/util.cpp.i
 
 src/util.s: src/util.cpp.s
@@ -4683,7 +4683,7 @@ src/util.s: src/util.cpp.s
 
 # target to generate assembly for a file
 src/util.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/util.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/util.cpp.s
 .PHONY : src/util.cpp.s
 
 src/version.o: src/version.cpp.o
@@ -4692,7 +4692,7 @@ src/version.o: src/version.cpp.o
 
 # target to build an object file
 src/version.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/version.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/version.cpp.o
 .PHONY : src/version.cpp.o
 
 src/version.i: src/version.cpp.i
@@ -4701,7 +4701,7 @@ src/version.i: src/version.cpp.i
 
 # target to preprocess a source file
 src/version.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/version.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/version.cpp.i
 .PHONY : src/version.cpp.i
 
 src/version.s: src/version.cpp.s
@@ -4710,7 +4710,7 @@ src/version.s: src/version.cpp.s
 
 # target to generate assembly for a file
 src/version.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/version.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/version.cpp.s
 .PHONY : src/version.cpp.s
 
 src/wallet.o: src/wallet.cpp.o
@@ -4719,7 +4719,7 @@ src/wallet.o: src/wallet.cpp.o
 
 # target to build an object file
 src/wallet.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/wallet.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/wallet.cpp.o
 .PHONY : src/wallet.cpp.o
 
 src/wallet.i: src/wallet.cpp.i
@@ -4728,7 +4728,7 @@ src/wallet.i: src/wallet.cpp.i
 
 # target to preprocess a source file
 src/wallet.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/wallet.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/wallet.cpp.i
 .PHONY : src/wallet.cpp.i
 
 src/wallet.s: src/wallet.cpp.s
@@ -4737,7 +4737,7 @@ src/wallet.s: src/wallet.cpp.s
 
 # target to generate assembly for a file
 src/wallet.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/wallet.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/wallet.cpp.s
 .PHONY : src/wallet.cpp.s
 
 src/walletdb.o: src/walletdb.cpp.o
@@ -4746,7 +4746,7 @@ src/walletdb.o: src/walletdb.cpp.o
 
 # target to build an object file
 src/walletdb.cpp.o:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/walletdb.cpp.o
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/walletdb.cpp.o
 .PHONY : src/walletdb.cpp.o
 
 src/walletdb.i: src/walletdb.cpp.i
@@ -4755,7 +4755,7 @@ src/walletdb.i: src/walletdb.cpp.i
 
 # target to preprocess a source file
 src/walletdb.cpp.i:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/walletdb.cpp.i
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/walletdb.cpp.i
 .PHONY : src/walletdb.cpp.i
 
 src/walletdb.s: src/walletdb.cpp.s
@@ -4764,7 +4764,7 @@ src/walletdb.s: src/walletdb.cpp.s
 
 # target to generate assembly for a file
 src/walletdb.cpp.s:
-	$(MAKE) -f CMakeFiles/bitcoin_0_8.dir/build.make CMakeFiles/bitcoin_0_8.dir/src/walletdb.cpp.s
+	$(MAKE) -f CMakeFiles/bitcoin.dir/build.make CMakeFiles/bitcoin.dir/src/walletdb.cpp.s
 .PHONY : src/walletdb.cpp.s
 
 # Help Target
@@ -4775,7 +4775,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... bitcoin_0_8"
+	@echo "... bitcoin"
 	@echo "... db/autocompact_test.o"
 	@echo "... db/autocompact_test.i"
 	@echo "... db/autocompact_test.s"

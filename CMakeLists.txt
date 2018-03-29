@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.9)
-project(bitcoin_0_8)
+project(bitcoin)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(bitcoin_0_8
+add_executable(bitcoin
         db/autocompact_test.cc
         src/json/json_spirit.h
         src/json/json_spirit_error_position.h
