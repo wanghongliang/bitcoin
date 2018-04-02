@@ -1,6 +1,12 @@
 // Copyright (c) 2009 Satoshi Nakamoto
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
+/**
+ * 
+ * 需要BerkeleyDB库，这里引用库的头文件
+ * 
+ * 
+ * */
 
 #include <db_cxx.h>
 class CTransaction;
@@ -22,13 +28,19 @@ extern void DBFlush(bool fShutdown);
 
 
 
+/**
+ * 
+ * 数据库存储操作类
+ * 
+ * */
+
 
 class CDB
 {
 protected:
-    Db* pdb;
-    string strFile;
-    vector<DbTxn*> vTxn;
+    Db* pdb;//db类声明
+    string strFile;//文件路径
+    vector<DbTxn*> vTxn;//DbTxn 是交易帐单？
 
     explicit CDB(const char* pszFile, const char* pszMode="r+", bool fTxn=false);
     ~CDB() { Close(); }
@@ -40,6 +52,11 @@ private:
 
 protected:
     template<typename K, typename T>
+
+    /**
+     * 从数据库中读取指定key的数据
+     * 
+     * */
     bool Read(const K& key, T& value)
     {
         if (!pdb)
